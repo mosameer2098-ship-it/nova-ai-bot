@@ -1,20 +1,17 @@
 import logging
 
+from telegram import Update
 from telegram.ext import (
     Application,
     CommandHandler,
     MessageHandler,
+    ContextTypes,
     filters,
 )
 
 from config import BOT_TOKEN
-from handlers.start import start
-from handlers.help import help_command
-from handlers.clear import clear
-from handlers.message import message_handler
-from error_handler import error_handler
 
-# Logging
+
 logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
     level=logging.INFO,
@@ -22,25 +19,66 @@ logging.basicConfig(
 
 logger = logging.getLogger(__name__)
 
-# Create Application
-app = Application.builder().token(BOT_TOKEN).build()
 
-# Commands
-app.add_handler(CommandHandler("start", start))
-app.add_handler(CommandHandler("help", help_command))
-app.add_handler(CommandHandler("clear", clear))
+async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    await update.message.reply_text(
+        "👋 Hello!\n\n"
+        "Main Nova AI hoon 🤖\n"
+        "Mujhse kuch bhi pooch sakte ho."
+    )
 
-# Message Handler
-app.add_handler(
-    MessageHandler(filters.TEXT & ~filters.COMMAND, message_handler)
-)
 
-# Error Handler
-app.add_error_handler(error_handler)
+async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    await update.message.reply_text(
+        "🤖 Nova AI Help\n\n"
+        "/start - Bot start karein\n"
+        "/help - Help menu\n"
+        "/clear - Chat history clear karein\n\n"
+        "Bas koi bhi message bhejo aur mujhse baat karo."
+    )
 
-print("🤖 Telegram AI Bot Started Successfully...")
 
-# Run Bot
-app.run_polling(
-    allowed_updates=["message"]
-)
+async def message_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    await update.message.reply_text(
+        "⏳ AI system abhi connect kiya ja raha hai..."
+    )
+
+
+async def clear_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    await update.message.reply_text(
+        "🧹 Chat history clear kar di gayi."
+    )
+
+
+async def error_handler(update: object, context: ContextTypes.DEFAULT_TYPE):
+    logger.error(
+        "Exception while handling update:",
+        exc_info=context.error,
+    )
+
+
+def main():
+    app = Application.builder().token(BOT_TOKEN).build()
+
+    app.add_handler(CommandHandler("start", start))
+    app.add_handler(CommandHandler("help", help_command))
+    app.add_handler(CommandHandler("clear", clear_command))
+
+    app.add_handler(
+        MessageHandler(
+            filters.TEXT & ~filters.COMMAND,
+            message_handler,
+        )
+    )
+
+    app.add_error_handler(error_handler)
+
+    logger.info("🤖 Nova AI Bot is starting...")
+
+    app.run_polling(
+        drop_pending_updates=True
+    )
+
+
+if __name__ == "__main__":
+    main()
