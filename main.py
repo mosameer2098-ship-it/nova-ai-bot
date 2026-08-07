@@ -4,15 +4,18 @@ try:
     asyncio.get_running_loop()
 except RuntimeError:
     asyncio.set_event_loop(asyncio.new_event_loop())
-    from telegram.ext import (
+
+from telegram.ext import (
     Application,
     CommandHandler,
     MessageHandler,
     ContextTypes,
     filters,
 )
+
 from config import BOT_TOKEN
 from handlers import start, help_command, reset, chat
+
 
 def main():
     app = Application.builder().token(BOT_TOKEN).build()
@@ -27,6 +30,7 @@ def main():
 
     print("✅ Nova AI Bot is running...")
     app.run_polling()
+
 
 if __name__ == "__main__":
     main()
