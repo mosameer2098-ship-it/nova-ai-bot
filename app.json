@@ -1,1 +1,32 @@
-
+{
+  "name": "Telegram AI Bot",
+  "description": "Telegram AI Chat Bot powered by Gemini",
+  "repository": "https://github.com/YOUR_USERNAME/Telegram-AI-Bot",
+  "logo": "https://telegra.ph/file/8d7e6f9c4b5a1f6f0d9b2.png",
+  "keywords": [
+    "telegram",
+    "bot",
+    "ai",
+    "gemini",
+    "python"
+  ],
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Telegram Bot Token"
+    },
+    "GEMINI_API_KEY": {
+      "description": "Google Gemini API Key"
+    }
+  },
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "basic"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
