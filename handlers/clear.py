@@ -1,23 +1,18 @@
-import json
 from telegram import Update
 from telegram.ext import ContextTypes
 
-MEMORY_FILE = "data/chats.json"
+from utils.memory import clear_chat
 
-async def clear(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    user_id = str(update.effective_user.id)
 
-    try:
-        with open(MEMORY_FILE, "r") as f:
-            data = json.load(f)
+async def clear_command(
+    update: Update,
+    context: ContextTypes.DEFAULT_TYPE
+):
+    user_id = update.effective_user.id
 
-        if user_id in data:
-            del data[user_id]
+    clear_chat(user_id)
 
-        with open(MEMORY_FILE, "w") as f:
-            json.dump(data, f, indent=4)
-
-        await update.message.reply_text("✅ Chat history cleared.")
-
-    except Exception as e:
-        await update.message.reply_text(f"❌ Error: {e}")
+    await update.message.reply_text(
+        "🧹 Chat history clear kar di gayi hai.\n\n"
+        "Ab hum fresh conversation se start karenge. 😊"
+    )
