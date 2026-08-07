@@ -2,20 +2,25 @@ import json
 import os
 
 MEMORY_FILE = "data/chats.json"
-
-if not os.path.exists(MEMORY_FILE):
-    with open(MEMORY_FILE, "w") as f:
-        json.dump({}, f)
+MAX_MESSAGES = 10
 
 
 def load_memory():
-    with open(MEMORY_FILE, "r") as f:
-        return json.load(f)
+    if not os.path.exists(MEMORY_FILE):
+        return {}
+
+    try:
+        with open(MEMORY_FILE, "r", encoding="utf-8") as file:
+            return json.load(file)
+    except (json.JSONDecodeError, OSError):
+        return {}
 
 
 def save_memory(data):
-    with open(MEMORY_FILE, "w") as f:
-        json.dump(data, f, indent=4)
+    os.makedirs("data", exist_ok=True)
+
+    with open(MEMORY_FILE, "w", encoding="utf-8") as file:
+        json.dump(data, file, ensure_ascii=False, indent=2)
 
 
 def get_chat(user_id):
@@ -23,18 +28,31 @@ def get_chat(user_id):
     return data.get(str(user_id), [])
 
 
-def update_chat(user_id, user_msg, bot_msg):
+def add_message(user_id, user_message, bot_message):
     data = load_memory()
 
-    history = data.get(str(user_id), [])
+    user_id = str(user_id)
+
+    history = data.get(user_id, [])
 
     history.append({
-        "user": user_msg,
-        "bot": bot_msg
+        "user": user_message,
+        "bot": bot_message
     })
 
-    history = history[-10:]  # Sirf last 10 messages
-
-    data[str(user_id)] = history
+    # Sirf last 10 conversation pairs rakho
+    data[user_id] = history[-MAX_MESSAGES:]
 
     save_memory(data)
+
+
+def clear_chat(user_id):
+    data = load_memory()
+
+    user_id = str(user_id)
+
+    if user_id in data:
+        del data[user_id]
+        save_memory(data)
+
+    return True
