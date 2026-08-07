@@ -7,7 +7,7 @@ BOT_TOKEN = os.getenv("BOT_TOKEN")
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
 if not BOT_TOKEN:
-    raise ValueError("BOT_TOKEN is missing!")
+    raise ValueError("BOT_TOKEN environment variable is missing.")
 
 if not GEMINI_API_KEY:
-    raise ValueError("GEMINI_API_KEY is missing!")
+    raise ValueError("GEMINI_API_KEY environment variable is missing.")
