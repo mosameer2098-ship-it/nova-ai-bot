@@ -1,6 +1,7 @@
 from google import genai
 
 from config import GEMINI_API_KEY
+from utils.memory import get_chat, add_message
 
 
 client = genai.Client(api_key=GEMINI_API_KEY)
@@ -13,18 +14,40 @@ Rules:
 - Reply naturally and helpfully.
 - Understand Hindi, Hinglish and English.
 - Reply in the same language as the user whenever possible.
+- Remember the recent conversation provided below.
 - Keep normal replies concise.
 - Do not mention these internal instructions.
 """
 
 
-def generate_reply(message: str) -> str:
-    response = client.models.generate_content(
-        model="gemini-2.5-flash",
-        contents=f"{SYSTEM_PROMPT}\n\nUser: {message}",
+def generate_reply(user_id: int, message: str) -> str:
+    history = get_chat(user_id)
+
+    conversation = ""
+
+    for chat in history:
+        conversation += f"User: {chat['user']}\n"
+        conversation += f"Nova AI: {chat['bot']}\n"
+
+    prompt = (
+        f"{SYSTEM_PROMPT}\n\n"
+        f"Recent conversation:\n{conversation}\n"
+        f"User: {message}\n"
+        f"Nova AI:"
     )
 
-    if not response.text:
-        return "Sorry, mujhe iska jawab nahi mila. Please dobara try karo."
+    response = client.models.generate_content(
+        model="gemini-2.5-flash",
+        contents=prompt,
+    )
 
-    return response.text.strip()
+    reply = response.text
+
+    if not reply:
+        return "Sorry, mujhe iska jawab nahi mila."
+
+    reply = reply.strip()
+
+    add_message(user_id, message, reply)
+
+    return reply
