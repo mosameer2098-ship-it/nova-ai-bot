@@ -22,3 +22,7 @@ print("🤖 Telegram AI Bot Started...")
 
 app.run_polling()
 from handlers.clear import clear
+app.add_handler(CommandHandler("clear", clear))
+app.add_handler(CommandHandler("start", start))
+app.add_handler(CommandHandler("help", help_command))
+app.add_handler(CommandHandler("clear", clear))
