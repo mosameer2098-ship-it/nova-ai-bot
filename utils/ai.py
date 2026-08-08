@@ -23,15 +23,18 @@ If the user speaks Hindi or Hinglish, reply in Hindi/Hinglish.
     try:
         response = await client.aio.models.generate_content(
             model="gemini-2.0-flash",
-            contents=prompt
+            contents=prompt,
         )
 
-        reply = response.text or "⚠️ AI se response nahi mila."
+        reply = response.text
+
+        if not reply:
+            reply = "⚠️ AI se response nahi mila."
 
         update_chat(user_id, message, reply)
 
         return reply
 
     except Exception as e:
-        print("GEMINI ERROR:", repr(e))
-        return "⚠️ Abhi AI response mein problem aa rahi hai. Thodi der baad try karo."
+        print(f"GEMINI ERROR: {type(e).__name__}: {e}")
+        raise
