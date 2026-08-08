@@ -26,10 +26,7 @@ If the user speaks Hindi or Hinglish, reply in Hindi/Hinglish.
             contents=prompt,
         )
 
-        reply = response.text
-
-        if not reply:
-            reply = "⚠️ AI se response nahi mila."
+        reply = response.text or "⚠️ AI se response nahi mila."
 
         update_chat(user_id, message, reply)
 
@@ -37,4 +34,8 @@ If the user speaks Hindi or Hinglish, reply in Hindi/Hinglish.
 
     except Exception as e:
         print(f"GEMINI ERROR: {type(e).__name__}: {e}")
-        raise
+
+        return (
+            "⚠️ Nova AI abhi response nahi de pa raha.\n"
+            "Thodi der baad dobara try karo."
+        )
