@@ -1,58 +1,64 @@
 import json
 import os
 
-MEMORY_FILE = "data/chats.json"
-MAX_MESSAGES = 10
+
+DATA_FILE = "data/chats.json"
 
 
-def load_memory():
-    if not os.path.exists(MEMORY_FILE):
+def _load_data():
+    if not os.path.exists(DATA_FILE):
         return {}
 
     try:
-        with open(MEMORY_FILE, "r", encoding="utf-8") as file:
+        with open(DATA_FILE, "r", encoding="utf-8") as file:
             return json.load(file)
     except (json.JSONDecodeError, OSError):
         return {}
 
 
-def save_memory(data):
-    os.makedirs("data", exist_ok=True)
+def _save_data(data):
+    os.makedirs(os.path.dirname(DATA_FILE), exist_ok=True)
 
-    with open(MEMORY_FILE, "w", encoding="utf-8") as file:
-        json.dump(data, file, ensure_ascii=False, indent=2)
+    with open(DATA_FILE, "w", encoding="utf-8") as file:
+        json.dump(
+            data,
+            file,
+            ensure_ascii=False,
+            indent=2
+        )
 
 
 def get_chat(user_id):
-    data = load_memory()
+    data = _load_data()
+
     return data.get(str(user_id), [])
 
 
-def add_message(user_id, user_message, bot_message):
-    data = load_memory()
+def update_chat(user_id, user_message, bot_reply):
+    data = _load_data()
 
     user_id = str(user_id)
 
-    history = data.get(user_id, [])
+    if user_id not in data:
+        data[user_id] = []
 
-    history.append({
+    data[user_id].append({
         "user": user_message,
-        "bot": bot_message
+        "bot": bot_reply
     })
 
-    # Sirf last 10 conversation pairs rakho
-    data[user_id] = history[-MAX_MESSAGES:]
+    # Keep only the latest 20 conversations
+    data[user_id] = data[user_id][-20:]
 
-    save_memory(data)
+    _save_data(data)
 
 
 def clear_chat(user_id):
-    data = load_memory()
+    data = _load_data()
 
     user_id = str(user_id)
 
     if user_id in data:
         del data[user_id]
-        save_memory(data)
 
-    return True
+    _save_data(data)
