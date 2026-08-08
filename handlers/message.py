@@ -1,36 +1,32 @@
-import random
 from telegram import Update
 from telegram.ext import ContextTypes
 
-
-REPLIES = [
-    "Haan 😊 bolo, kya baat hai?",
-    "Main yahin hoon 🤖 bolo kya help chahiye?",
-    "Achha 😄 phir batao kya hua?",
-    "Haan ji, sun raha hoon 👂",
-    "Bilkul 👍 batao.",
-    "Haha 😄 sahi hai!",
-    "Samajh gaya 😊",
-    "Thoda detail me batao, main help karta hoon.",
-    "Koi tension nahi ❤️ main hoon na.",
-    "Achha! Ye interesting hai 👀",
-    "Haan bolo Sameer 😊",
-    "Main tumhari baat sun raha hoon 🤖",
-    "Bilkul, batao kya karna hai?",
-    "Theek hai 👍 aage bolo.",
-    "Hmm 🤔 samajh raha hoon.",
-]
+from utils.ai import generate_reply
 
 
-async def message_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
+async def message_handler(
+    update: Update,
+    context: ContextTypes.DEFAULT_TYPE
+):
 
+    # Message check
     if not update.message or not update.message.text:
         return
 
+    # User information
+    user_id = update.effective_user.id if update.effective_user else 0
+    message = update.message.text
+
+    # Typing indicator
     await update.message.chat.send_action("typing")
 
-    reply = random.choice(REPLIES)
+    # AI/reply system se relevant reply lo
+    reply = await generate_reply(
+        user_id=user_id,
+        message=message
+    )
 
+    # Reply send karo
     await update.message.reply_text(
         f"🤖 𝗡𝗢𝗩𝗔: {reply}"
     )
