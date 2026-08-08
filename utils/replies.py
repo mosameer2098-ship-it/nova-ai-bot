@@ -5624,4 +5624,4434 @@ REPLIES = {
         "Great job! Tumne quiz complete kar liya 🏆",
         "Ab final score check karte hain 🎯",
         "Well played! 🧠🔥"
+    ],    # =========================
+    # PART 23 — QUIZ: RIDDLES & LOGIC
+    # =========================
+
+    "paheli": [
+        "Bilkul! 🧩 Paheli poochho.",
+        "Chalo dimaag lagate hain 😎🧠",
+        "Paheli mode ON 🔥",
+        "Easy paheli chahiye ya difficult?"
+    ],
+
+    "paheli sunao": [
+        "Ready! 🧩 Ek paheli sunata hoon.",
+        "Chalo paheli time 😎🧠",
+        "Dimaag lagane ke liye ready ho? 🔥",
+        "Paheli challenge shuru!"
+    ],
+
+    "riddle": [
+        "Riddle Time 🧩🧠",
+        "Paheli bhejo, solve karte hain!",
+        "Chalo dimaag ka test karte hain 😎",
+        "Easy ya hard riddle?"
+    ],
+
+    "riddle answer": [
+        "Apna answer batao 🧩",
+        "Socho aur final answer do 🧠",
+        "Hmm... tumhara answer kya hai? 😎",
+        "Let's see tum sahi ho ya nahi 🔥"
+    ],
+
+    "logic": [
+        "Logic question ke liye ready hoon 🧠🔥",
+        "Question bhejo, reasoning se solve karte hain.",
+        "Chalo brain ko challenge karte hain 😎",
+        "Logic mode ON 🎯"
+    ],
+
+    "reasoning": [
+        "Reasoning practice ke liye ready? 🧠",
+        "Question bhejo aur options bhi ho to bhej dena.",
+        "Chalo logical thinking test karte hain 🎯",
+        "Reasoning challenge start karte hain 🔥"
+    ],
+
+    "brain teaser": [
+        "Brain Teaser 🧠🔥 Ready?",
+        "Ye question thoda sochne wala hoga 😎",
+        "Dimaag lagao aur answer do 🎯",
+        "Challenge accepted?"
+    ],
+
+    "trick question": [
+        "Trick Question 😎🧠",
+        "Dhyan se question read karna!",
+        "Ismein ek chhota twist ho sakta hai 🔥",
+        "Answer dene se pehle ek baar dobara soch lena."
+    ],
+
+    "guess": [
+        "Guess karo 😎🎯",
+        "Tumhara best guess kya hai?",
+        "Socho... phir answer do 🧠",
+        "Let's see guess correct hai ya nahi!"
+    ],
+
+    "guess the number": [
+        "Number Guessing Game 🔢🎯",
+        "1 se 100 ke beech ek number guess karo!",
+        "Ready? Apna number bolo 😎",
+        "Chalo dekhte hain kitna close guess karte ho 🔥"
+    ],
+
+    "guess game": [
+        "Guess Game ON 🎯🔥",
+        "Chalo guessing game khelte hain!",
+        "Number, object ya word — kya guess karna hai? 😎",
+        "Game start karte hain 🧠"
+    ],
+
+    "word quiz": [
+        "Word Quiz 📚🧠",
+        "Vocabulary test ke liye ready?",
+        "Meaning, synonym ya spelling — kuch bhi aa sakta hai 😎",
+        "Chalo first word se start karte hain!"
+    ],
+
+    "spelling quiz": [
+        "Spelling Quiz ✍️🧠",
+        "Word bhejo aur spelling test karte hain.",
+        "Chalo spelling accuracy check karte hain 🎯",
+        "Ready for the challenge?"
+    ],
+
+    "meaning quiz": [
+        "Meaning Quiz 📖🧠",
+        "Word bhejo aur uska meaning guess karo.",
+        "Hindi ya English meaning — dono kar sakte hain.",
+        "Chalo vocabulary test karte hain 🔥"
+    ],
+
+    "synonym quiz": [
+        "Synonym Quiz 📚🧠",
+        "Word ka similar meaning guess karo.",
+        "Chalo vocabulary strong karte hain 😎",
+        "Pehla word bhejo!"
+    ],
+
+    "antonym quiz": [
+        "Antonym Quiz 🔄🧠",
+        "Opposite meaning guess karna hai!",
+        "Chalo opposite words ka test karte hain 🎯",
+        "Pehla word?"
+    ],
+
+    "capital quiz": [
+        "Capital City Quiz 🌍🧠",
+        "Country ka naam do aur capital guess karo!",
+        "Chalo Geography knowledge test karte hain 🎯",
+        "Ready?"
+    ],
+
+    "country quiz": [
+        "Country Quiz 🌍🔥",
+        "Countries aur capitals ke questions karte hain.",
+        "Chalo world knowledge test karte hain 🧠",
+        "First question ke liye ready?"
+    ],
+
+    "flag quiz": [
+        "Flag Quiz 🚩🌍",
+        "Flag identify karne ka challenge!",
+        "Country ka flag guess karo 🧠",
+        "Chalo flag knowledge test karte hain!"
+    ],
+
+    "animal quiz": [
+        "Animal Quiz 🐯🧠",
+        "Animals ke interesting questions karte hain!",
+        "Guess the animal 😎",
+        "Chalo first question!"
+    ],
+
+    "space quiz": [
+        "Space Quiz 🚀🌌",
+        "Planets, stars aur space ke questions!",
+        "Ready for a space challenge? 🧠",
+        "Chalo universe ka quiz karte hain 🔥"
+    ],
+
+    "computer quiz": [
+        "Computer Quiz 💻🧠",
+        "Technology aur computer basics ka test!",
+        "Chalo computer knowledge check karte hain 🎯",
+        "First question?"
+    ],
+
+    "coding quiz": [
+        "Coding Quiz 💻🔥",
+        "Programming concepts ka test karte hain!",
+        "Code aur logic dono aa sakte hain 🧠",
+        "Ready programmer? 😎"
+    ],
+
+    "python quiz": [
+        "Python Quiz 🐍💻",
+        "Python basics ka test karte hain.",
+        "Variables, loops, functions aur more! 🧠",
+        "Ready for Python challenge?"
+    ],
+
+    "easy question": [
+        "Easy Question 🟢🧠",
+        "Chalo simple question se start karte hain.",
+        "Ready? 🎯",
+        "Question bhejo!"
+    ],
+
+    "difficult question": [
+        "Difficult Question 🔴🧠",
+        "Ab thoda tough challenge hoga 😎",
+        "Dhyan se sochna!",
+        "Ready for the hard question? 🔥"
+    ],
+
+    "quiz timer": [
+        "⏱️ Quiz Timer Mode!",
+        "Question solve karne ke liye limited time rakh sakte ho.",
+        "Speed + accuracy dono important hain 🧠🔥",
+        "Ready?"
+    ],
+
+    "speed quiz": [
+        "⚡ Speed Quiz ON!",
+        "Fast answer dena hai 😎",
+        "Speed ke saath accuracy bhi maintain karo!",
+        "Let's go 🔥🧠"
+    ],
+
+    "knowledge test": [
+        "Knowledge Test 🧠🎯",
+        "Chalo dekhte hain tumhara knowledge kitna strong hai!",
+        "Different topics ke questions aa sakte hain 🔥",
+        "Ready?"
+    ],
+
+    "brain test": [
+        "Brain Test 🧠🔥",
+        "Ab dimaag ka test hoga 😎",
+        "Logic, memory aur reasoning ka challenge!",
+        "Let's begin 🎯"
+    ],
+
+    "memory test": [
+        "Memory Test 🧠🔐",
+        "Dekhte hain tum kitni information yaad rakh sakte ho!",
+        "Focus karo aur answer do 🎯",
+        "Ready?"
+    ],
+
+    "memory quiz": [
+        "Memory Quiz 🧠🔥",
+        "Kuch information yaad rakho, phir questions honge.",
+        "Focus mode ON 😎",
+        "Let's test your memory!"
+    ],
+
+    "final answer": [
+        "Final Answer lock karna hai? 🔒🎯",
+        "Ek baar dobara soch lo, phir final answer do.",
+        "Okay, final answer kya hai? 😎",
+        "Let's lock it in 🔥"
+    ],
+
+    "answer lock": [
+        "🔒 Answer locked!",
+        "Final answer save kar liya 😎",
+        "Ab result check karte hain 🎯",
+        "Let's see correct hai ya nahi 🧠"
+    ],
+
+    "quiz winner": [
+        "🏆 You Win!",
+        "Congratulations! 🎉🔥",
+        "Excellent performance 😎🧠",
+        "Aaj ke Quiz Champion tum ho! 🏆"
+    ],
+
+    "quiz loser": [
+        "Game over 😄",
+        "Koi baat nahi ❤️ Next round mein comeback karna!",
+        "Practice se score improve hoga 💪",
+        "Rematch ke liye ready ho? 🔥"
+    ],
+
+    "rematch": [
+        "Rematch accepted! 🔥🎯",
+        "Round 2 start karte hain 😎",
+        "Comeback time! 🧠💪",
+        "Chalo phir se quiz karte hain!"
+    ],
+
+    "one more": [
+        "Bilkul! Ek aur question 🔥",
+        "Next one coming 😎🧠",
+        "Chalo ek aur try karte hain!",
+        "Ready for another question? 🎯"
+    ],
+
+    "quiz stop": [
+        "Quiz stopped 👍",
+        "Theek hai 😊 Jab ready ho phir start kar lenge.",
+        "Quiz pause kar diya 🎯",
+        "Next time phir challenge karenge 😎"
+    ],
+
+    "stop quiz": [
+        "Okay 👍 Quiz stop kar diya.",
+        "Koi baat nahi 😊 Baad mein continue kar sakte ho.",
+        "Quiz session end 🎯",
+        "Jab mann ho phir start karna 🔥"
+    ],    # =========================
+    # PART 24 — QUIZ: FUN & MIXED
+    # =========================
+
+    "fun quiz": [
+        "Fun Quiz 🎉🧠 Ready?",
+        "Chalo thoda knowledge aur thodi masti karte hain 😎",
+        "Fun questions ke liye ready ho? 🔥",
+        "Let's play!"
+    ],
+
+    "mixed quiz": [
+        "Mixed Quiz 🔥🧠",
+        "Ismein different topics ke questions aa sakte hain.",
+        "Ready for a surprise question? 😎",
+        "Chalo mixed knowledge test karte hain!"
+    ],
+
+    "random quiz": [
+        "Random Quiz 🎲🧠",
+        "Question ka topic surprise hoga 😎",
+        "Chalo dekhte hain random question ka answer de paate ho ya nahi!",
+        "Ready? 🔥"
+    ],
+
+    "sports quiz": [
+        "Sports Quiz 🏆⚽🏏",
+        "Cricket, football aur other sports ke questions!",
+        "Chalo sports knowledge test karte hain 🧠",
+        "Ready for the sports challenge?"
+    ],
+
+    "cricket quiz": [
+        "Cricket Quiz 🏏🔥",
+        "Cricket knowledge test karte hain!",
+        "Players, rules aur records ke questions ho sakte hain 🧠",
+        "Pehla cricket question?"
+    ],
+
+    "football quiz": [
+        "Football Quiz ⚽🔥",
+        "Teams, players aur football rules ka test!",
+        "Chalo football knowledge check karte hain 🧠",
+        "Ready?"
+    ],
+
+    "bollywood quiz": [
+        "Bollywood Quiz 🎬🔥",
+        "Movies aur Bollywood se related questions!",
+        "Film knowledge test karte hain 😎",
+        "Pehla question?"
+    ],
+
+    "movie quiz": [
+        "Movie Quiz 🎬🍿",
+        "Films, characters aur cinema ke questions!",
+        "Chalo movie knowledge test karte hain 🧠",
+        "Ready for the first question?"
+    ],
+
+    "music quiz": [
+        "Music Quiz 🎵🧠",
+        "Songs, instruments aur music knowledge ka test!",
+        "Chalo music quiz start karte hain 🎶",
+        "Ready?"
+    ],
+
+    "food quiz": [
+        "Food Quiz 🍕🍔🧠",
+        "Different foods aur cuisines ke questions!",
+        "Food knowledge test karte hain 😋",
+        "Pehla question?"
+    ],
+
+    "emoji quiz": [
+        "Emoji Quiz 😎🧩",
+        "Emoji dekhkar word ya phrase guess karna hai!",
+        "Chalo emoji challenge start karte hain 🔥",
+        "Ready?"
+    ],
+
+    "picture quiz": [
+        "Picture Quiz 🖼️🧠",
+        "Image ko observe karke answer guess karo!",
+        "Observation skills test karte hain 🔍",
+        "Ready for the challenge?"
+    ],
+
+    "flag challenge": [
+        "Flag Challenge 🚩🔥",
+        "Flag dekho aur country guess karo!",
+        "Let's test your geography skills 🌍",
+        "Ready?"
+    ],
+
+    "capital challenge": [
+        "Capital Challenge 🌍🎯",
+        "Country aur capital ka test!",
+        "Answer carefully 😎",
+        "Challenge accepted?"
+    ],
+
+    "animal challenge": [
+        "Animal Challenge 🐯🔥",
+        "Animal ko clues se guess karo!",
+        "Chalo wildlife knowledge test karte hain 🧠",
+        "Ready?"
+    ],
+
+    "food challenge": [
+        "Food Challenge 🍕🔥",
+        "Food ko clues se guess karna hai!",
+        "Taste buds nahi, brain use karna hai 😂",
+        "Challenge accepted?"
+    ],
+
+    "movie challenge": [
+        "Movie Challenge 🎬🔥",
+        "Movie clues se film guess karo!",
+        "Cinema knowledge test karte hain 😎",
+        "Ready?"
+    ],
+
+    "music challenge": [
+        "Music Challenge 🎵🔥",
+        "Song ya singer ko clues se guess karo!",
+        "Music knowledge test karte hain 🧠",
+        "Ready?"
+    ],
+
+    "sports challenge": [
+        "Sports Challenge 🏆🔥",
+        "Sports knowledge ka test!",
+        "Cricket, football aur more 😎",
+        "Let's begin!"
+    ],
+
+    "kids quiz": [
+        "Kids Quiz 🧒🧠🎉",
+        "Simple aur fun questions!",
+        "Chalo knowledge ke saath masti karte hain 😄",
+        "Pehla question?"
+    ],
+
+    "school quiz": [
+        "School Quiz 🏫📚",
+        "School subjects se questions karte hain!",
+        "Maths, Science, English aur GK aa sakta hai 🧠",
+        "Ready?"
+    ],
+
+    "student quiz": [
+        "Student Quiz 🎓🧠",
+        "Study aur general knowledge ka mix!",
+        "Chalo apna knowledge test karte hain 🔥",
+        "Ready?"
+    ],
+
+    "interview quiz": [
+        "Interview Quiz 💼🧠",
+        "Common interview questions ka practice round!",
+        "Confidence ke saath answer dene ki practice karo.",
+        "Chalo first question se start karte hain 🎯"
+    ],
+
+    "iq quiz": [
+        "IQ Quiz 🧠🔥",
+        "Logic aur reasoning based questions!",
+        "Dhyan se sochna 😎",
+        "Ready for the IQ challenge?"
+    ],
+
+    "aptitude quiz": [
+        "Aptitude Quiz 🧮🧠",
+        "Numbers, logic aur reasoning ka test!",
+        "Practice ke liye ready ho? 🎯",
+        "Let's begin!"
+    ],
+
+    "competitive quiz": [
+        "Competitive Quiz 🏆📚",
+        "Exam-style questions ka practice round!",
+        "Speed aur accuracy dono important hain 🧠",
+        "Ready?"
+    ],
+
+    "daily quiz": [
+        "Daily Quiz 📅🧠",
+        "Aaj ka knowledge challenge ready hai!",
+        "Roz thoda quiz, roz thoda learning 📚",
+        "Let's start today's quiz 🔥"
+    ],
+
+    "quiz of the day": [
+        "Quiz of the Day 🎯🔥",
+        "Aaj ka question ready hai!",
+        "Apna answer carefully choose karo 🧠",
+        "Let's play!"
+    ],
+
+    "quiz master": [
+        "Quiz Master Mode 🏆🧠",
+        "Ab tum quiz master ban sakte ho 😎",
+        "Question poochho aur mujhe challenge karo!",
+        "Challenge accepted 🔥"
+    ],
+
+    "challenge me": [
+        "Challenge accepted! 😎🔥",
+        "Chalo tumhara knowledge test karte hain 🧠",
+        "Ready for a difficult question?",
+        "Let's see what you've got! 🎯"
+    ],
+
+    "hard challenge": [
+        "Hard Challenge 🔴🔥",
+        "Ab easy questions nahi honge 😎",
+        "Dhyan se sochna aur answer dena 🧠",
+        "Challenge begins!"
+    ],
+
+    "easy challenge": [
+        "Easy Challenge 🟢🎯",
+        "Simple question se start karte hain!",
+        "Ready? 😄",
+        "Let's begin!"
+    ],
+
+    "quiz fun": [
+        "Quiz + Fun = Perfect Combo 😂🧠",
+        "Chalo knowledge ke saath masti karte hain!",
+        "Ready for a funny quiz? 😎",
+        "Let's go 🔥"
+    ],
+
+    "quiz game": [
+        "Quiz Game ON 🎮🧠",
+        "Rules simple hain: question padho aur answer do!",
+        "Ready for the first round? 🎯",
+        "Game start!"
+    ],
+
+    "game quiz": [
+        "Game Quiz 🎮🔥",
+        "Chalo quiz ko game ki tarah khelte hain!",
+        "Score maintain karenge 😎",
+        "Ready?"
+    ],
+
+    "winner": [
+        "🏆 Winner Winner!",
+        "Congratulations! 🎉🔥",
+        "Tumne challenge jeet liya 😎",
+        "Excellent performance!"
+    ],
+
+    "loser": [
+        "Koi baat nahi 😄",
+        "Next round mein comeback karna 💪",
+        "Practice ke saath score improve hoga 🧠",
+        "Rematch ke liye ready rehna 🔥"
+    ],
+
+    "rematch quiz": [
+        "🔥 Rematch Quiz!",
+        "Round dobara start karte hain 😎",
+        "Comeback time 🧠💪",
+        "Let's play again!"
+    ],
+
+    "quiz bye": [
+        "Quiz session end 👋🎯",
+        "Good game dost 😄",
+        "Phir kabhi quiz challenge karenge!",
+        "Take care 🧠❤️"
+    ],    # =========================
+    # PART 25 — QUIZ: RAPID FIRE & SCORING
+    # =========================
+
+    "rapid fire": [
+        "⚡ Rapid Fire Quiz ON!",
+        "Ab questions fast-fast aayenge 😎",
+        "Speed aur accuracy dono chahiye 🧠🔥",
+        "Ready? Let's go!"
+    ],
+
+    "rapidfire": [
+        "⚡ Rapid Fire Mode!",
+        "Jaldi answer dena hai 😎",
+        "No long thinking 😂🔥",
+        "Let's start!"
+    ],
+
+    "fast quiz": [
+        "⚡ Fast Quiz!",
+        "Questions jaldi-jaldi solve karo 🧠",
+        "Speed test ke liye ready?",
+        "Let's go 🔥"
+    ],
+
+    "speed test": [
+        "⚡ Speed Test ON!",
+        "Dekhte hain kitni fast thinking hai 😎🧠",
+        "Time aur accuracy dono important hain!",
+        "Ready?"
+    ],
+
+    "level 1": [
+        "🟢 Level 1 unlocked!",
+        "Beginner level start karte hain 😄",
+        "Pehla challenge ready hai!",
+        "Let's begin 🎯"
+    ],
+
+    "level 2": [
+        "🟡 Level 2 unlocked!",
+        "Ab difficulty thodi badhegi 🔥",
+        "Ready for the next challenge?",
+        "Chalo start karte hain 😎"
+    ],
+
+    "level 3": [
+        "🟠 Level 3 unlocked!",
+        "Ab questions aur interesting honge 🧠",
+        "Focus karo!",
+        "Challenge begins 🔥"
+    ],
+
+    "level 4": [
+        "🔴 Level 4 unlocked!",
+        "Ab real challenge start 😎🔥",
+        "Easy nahi hone wala!",
+        "Ready?"
+    ],
+
+    "level 5": [
+        "🏆 Level 5 — Expert!",
+        "Ab sirf strong players tikenge 🧠🔥",
+        "Maximum focus!",
+        "Let's see what you've got 😎"
+    ],
+
+    "beginner": [
+        "🟢 Beginner Mode!",
+        "Simple questions se start karte hain.",
+        "Learning ke liye perfect level 📚",
+        "Ready?"
+    ],
+
+    "intermediate": [
+        "🟡 Intermediate Mode!",
+        "Ab questions thode challenging honge 🧠",
+        "Knowledge test karte hain 🔥",
+        "Ready?"
+    ],
+
+    "expert": [
+        "🔴 Expert Mode!",
+        "Ab difficult questions aayenge 😎",
+        "Full concentration chahiye 🧠🔥",
+        "Challenge accepted?"
+    ],
+
+    "master": [
+        "🏆 Master Mode!",
+        "Ye highest challenge hai 🔥",
+        "Dekhte hain kaun master banta hai 😎",
+        "Let's begin!"
+    ],
+
+    "score 10": [
+        "🎯 10/10! Perfect Score!",
+        "Wah! Outstanding performance 🏆🔥",
+        "Quiz Master level 😎🧠",
+        "Ek bhi mistake nahi!"
+    ],
+
+    "score 9": [
+        "🔥 9/10! Excellent!",
+        "Bas ek step away from perfect 🏆",
+        "Bahut badhiya performance 😎",
+        "Keep going!"
+    ],
+
+    "score 8": [
+        "🎯 8/10! Great job!",
+        "Knowledge kaafi strong hai 🧠🔥",
+        "Thodi aur practice se perfect score!",
+        "Excellent!"
+    ],
+
+    "score 7": [
+        "👏 7/10! Good job!",
+        "Achha score hai 😄",
+        "Thodi practice aur karo 💪",
+        "Next round mein aur better kar sakte ho!"
+    ],
+
+    "score 6": [
+        "👍 6/10! Not bad!",
+        "Half se zyada correct 🎯",
+        "Mistakes ko revise karo 📚",
+        "Next attempt better hoga!"
+    ],
+
+    "score 5": [
+        "😊 5/10! Keep practicing!",
+        "Half questions correct hain.",
+        "Practice se score easily improve hoga 💪",
+        "Give it another try!"
+    ],
+
+    "score 4": [
+        "4/10 😄 Koi baat nahi.",
+        "Learning continue rakho 📚",
+        "Next round mein comeback possible hai 🔥",
+        "Practice makes progress!"
+    ],
+
+    "score 3": [
+        "3/10 ❤️ Don't worry!",
+        "Galtiyon se seekhna sabse important hai.",
+        "Chalo topics revise karte hain 📚",
+        "Next attempt better hoga 💪"
+    ],
+
+    "score 2": [
+        "2/10 😄 No problem!",
+        "Ab basics se practice karte hain.",
+        "Har question ek learning opportunity hai 🧠",
+        "Try again!"
+    ],
+
+    "score 1": [
+        "1/10 ❤️ Don't give up!",
+        "Score se zyada learning important hai.",
+        "Basics revise karo aur phir try karo 📚",
+        "You can improve 💪"
+    ],
+
+    "score 0": [
+        "0/10 😄 Koi tension nahi!",
+        "Abhi learning ka perfect time hai 📚",
+        "Basics se start karo aur phir challenge do 💪",
+        "Next round mein comeback karenge 🔥"
+    ],
+
+    "perfect score": [
+        "🏆 PERFECT SCORE!",
+        "Amazing! Ek bhi answer wrong nahi 🔥",
+        "Quiz Master officially 😎🧠",
+        "Outstanding performance!"
+    ],
+
+    "score board": [
+        "🏆 Score Board",
+        "Apna current score check karte hain 🎯",
+        "Highest score ko beat karne ki koshish karo!",
+        "Competition mode ON 🔥"
+    ],
+
+    "points": [
+        "🎯 Points system ready!",
+        "Correct answer = points 🔥",
+        "Wrong answer par practice milegi 🧠",
+        "High score banane ki koshish karo!"
+    ],
+
+    "bonus points": [
+        "🎁 Bonus Points!",
+        "Extra correct answer ke liye bonus mil sakta hai 🔥",
+        "Score aur improve karo 😎",
+        "Keep going!"
+    ],
+
+    "extra point": [
+        "⭐ Extra Point!",
+        "Nice! Bonus point unlocked 🎯",
+        "Score aur badh gaya 🔥",
+        "Excellent!"
+    ],
+
+    "streak": [
+        "🔥 Answer Streak!",
+        "Kitne answers continuously correct hain?",
+        "Streak maintain karo 😎",
+        "Don't break the chain!"
+    ],
+
+    "winning streak": [
+        "🔥 Winning Streak!",
+        "Continuous correct answers! 🏆",
+        "Amazing performance 😎🧠",
+        "Streak maintain rakho!"
+    ],
+
+    "streak broken": [
+        "Oops 😄 Streak break ho gayi.",
+        "Koi baat nahi, nayi streak start karo 💪",
+        "Next answer se comeback 🔥",
+        "Keep going!"
+    ],
+
+    "combo": [
+        "🔥 COMBO!",
+        "Multiple correct answers in a row!",
+        "Awesome performance 😎",
+        "Combo continue rakho 🧠"
+    ],
+
+    "bonus round": [
+        "🎁 BONUS ROUND!",
+        "Extra challenge ke liye ready?",
+        "Is round mein extra points mil sakte hain 🔥",
+        "Let's go!"
+    ],
+
+    "final round": [
+        "🏆 FINAL ROUND!",
+        "Ab last aur important challenge hai!",
+        "Full focus 😎🧠",
+        "Let's finish strong!"
+    ],
+
+    "sudden death": [
+        "⚡ SUDDEN DEATH ROUND!",
+        "Ek mistake aur game over 😎",
+        "Full concentration chahiye 🧠",
+        "Ready?"
+    ],
+
+    "tie breaker": [
+        "🔥 TIE BREAKER!",
+        "Ab winner decide hoga!",
+        "Ek important question ka answer do 🎯",
+        "Ready for the final challenge?"
+    ],
+
+    "quiz complete": [
+        "🎉 Quiz Complete!",
+        "Great job! Tumne quiz finish kar liya 🧠",
+        "Ab apna score check karo 🏆",
+        "Next quiz ke liye ready raho!"
+    ],
+
+    "quiz restart": [
+        "🔄 Quiz Restart!",
+        "Naya round zero se start karte hain.",
+        "Ready for a fresh challenge? 😎",
+        "Let's begin again!"
+    ],
+
+    "start over": [
+        "🔄 Starting Over!",
+        "Chalo quiz ko beginning se start karte hain.",
+        "Fresh round, fresh score 🧠🔥",
+        "Ready?"
+    ],
+
+    "new quiz": [
+        "🆕 New Quiz!",
+        "Naya quiz ready hai 🎯",
+        "Topic choose karo ya mixed quiz khelo.",
+        "Let's start!"
+    ],    # =========================
+    # PART 26 — QUIZ: SUBJECT PRACTICE
+    # =========================
+
+    "gk": [
+        "General Knowledge 🧠🌍 ke liye ready?",
+        "GK ka question poochho!",
+        "Chalo GK practice karte hain 📚",
+        "GK mode ON 🔥"
+    ],
+
+    "general knowledge": [
+        "General Knowledge mode 🧠🔥",
+        "Countries, history, science aur daily knowledge ke questions karte hain.",
+        "Pehla question bhejo 🎯",
+        "Ready?"
+    ],
+
+    "science": [
+        "Science 🔬🧠",
+        "Physics, Chemistry aur Biology ke questions kar sakte hain.",
+        "Science practice start karein?",
+        "Pehla question bhejo 🔥"
+    ],
+
+    "maths": [
+        "Maths 🧮📚",
+        "Calculation aur mathematical questions ke liye ready!",
+        "Question bhejo, solve karte hain 🧠",
+        "Math mode ON 🔥"
+    ],
+
+    "math": [
+        "Math 🧮🔥",
+        "Chalo calculation practice karte hain.",
+        "Question bhejo 😎",
+        "Let's solve it!"
+    ],
+
+    "physics": [
+        "Physics 🔬⚡",
+        "Motion, force, energy aur physics concepts par questions!",
+        "Physics question bhejo 🧠",
+        "Ready?"
+    ],
+
+    "chemistry": [
+        "Chemistry ⚗️🧪",
+        "Elements, reactions aur chemistry basics ka quiz!",
+        "Question bhejo 🧠",
+        "Let's practice!"
+    ],
+
+    "biology": [
+        "Biology 🧬🔬",
+        "Human body, plants aur living organisms ke questions!",
+        "Biology quiz start karein?",
+        "Pehla question bhejo 🧠"
+    ],
+
+    "history": [
+        "History 🏛️📚",
+        "Historical events aur important personalities ke questions!",
+        "History quiz ke liye ready?",
+        "Question bhejo 🎯"
+    ],
+
+    "geography": [
+        "Geography 🌍🗺️",
+        "Countries, capitals, rivers aur mountains ke questions!",
+        "Geography quiz start karein?",
+        "Pehla question bhejo 🧠"
+    ],
+
+    "english": [
+        "English 📖🇬🇧",
+        "Grammar, vocabulary aur sentence practice karte hain.",
+        "English question bhejo!",
+        "Let's practice English 🧠"
+    ],
+
+    "grammar": [
+        "Grammar 📚✍️",
+        "Grammar ka question bhejo.",
+        "Tenses, nouns, verbs aur sentence correction kar sakte hain.",
+        "Grammar practice ON 🔥"
+    ],
+
+    "vocabulary": [
+        "Vocabulary 📖🧠",
+        "Word meaning, synonym aur antonym practice karte hain.",
+        "Word bhejo!",
+        "Let's improve vocabulary 🔥"
+    ],
+
+    "computer": [
+        "Computer 💻🧠",
+        "Computer basics aur technology questions karte hain.",
+        "Question bhejo!",
+        "Computer quiz ready 🔥"
+    ],
+
+    "technology": [
+        "Technology 🤖💻",
+        "Tech aur digital world ke questions!",
+        "Chalo technology knowledge test karte hain.",
+        "Pehla question?"
+    ],
+
+    "coding": [
+        "Coding 💻🔥",
+        "Programming concepts aur logic practice karte hain.",
+        "Code-related question bhejo.",
+        "Let's code 🧠"
+    ],
+
+    "programming": [
+        "Programming 🧑‍💻🧠",
+        "Programming language ya coding concept poochho.",
+        "Practice ke liye ready!",
+        "Question bhejo 🔥"
+    ],
+
+    "python": [
+        "Python 🐍💻",
+        "Python ke concepts practice karte hain.",
+        "Variables, loops, functions ya modules — jo chaho poochho.",
+        "Python mode ON 🔥"
+    ],
+
+    "exam": [
+        "Exam Practice 📚📝",
+        "Chalo exam-style questions solve karte hain.",
+        "Subject batao aur practice start karo.",
+        "Ready?"
+    ],
+
+    "exam quiz": [
+        "Exam Quiz 📝🧠",
+        "Exam pattern ke questions practice karte hain.",
+        "Subject aur level choose karo.",
+        "Let's start!"
+    ],
+
+    "practice": [
+        "Practice Mode 📚🔥",
+        "Kis subject ki practice karni hai?",
+        "Question bhejo, solve karte hain.",
+        "Practice makes progress 💪"
+    ],
+
+    "practice question": [
+        "Practice Question 🧠",
+        "Question bhejo!",
+        "Chalo step-by-step solve karte hain.",
+        "Ready? 🎯"
+    ],
+
+    "answer explain": [
+        "Answer ka explanation chahiye? 📚",
+        "Bilkul, solution ko simple language mein samjha sakte hain.",
+        "Question bhejo.",
+        "Chalo concept samajhte hain 🧠"
+    ],
+
+    "explain answer": [
+        "Bilkul 😊 Answer ka concept samajhte hain.",
+        "Question aur options bhejo.",
+        "Main explanation simple rakhunga 📚",
+        "Let's understand it!"
+    ],
+
+    "solution": [
+        "Solution chahiye? 🧠",
+        "Question bhejo, solution dekhte hain.",
+        "Step-by-step approach useful rahegi 📚",
+        "Chalo solve karte hain!"
+    ],
+
+    "hint": [
+        "💡 Hint chahiye?",
+        "Pehle khud try karo, phir hint lo 😎",
+        "Ek chhota clue de sakta hoon.",
+        "Ready for a hint?"
+    ],
+
+    "first hint": [
+        "💡 First Hint:",
+        "Question ko dhyan se read karo.",
+        "Important keywords par focus karo 🧠",
+        "Ab dobara try karo!"
+    ],
+
+    "another hint": [
+        "💡 Another Hint:",
+        "Ek aur clue deta hoon 😎",
+        "Answer options ko compare karo.",
+        "Ab answer guess karo!"
+    ],
+
+    "show answer": [
+        "Answer reveal karna hai? 👀",
+        "Pehle ek baar khud try kar lo!",
+        "Ready for the correct answer?",
+        "Answer reveal 🔓"
+    ],
+
+    "correct": [
+        "Bilkul correct! ✅🔥",
+        "Sahi jawab 😎",
+        "Excellent! 🧠👏",
+        "Perfect!"
+    ],
+
+    "incorrect": [
+        "Incorrect ❌",
+        "Koi baat nahi, next try karo ❤️",
+        "Almost! Dobara socho 🧠",
+        "Practice se improve hoga 💪"
+    ],
+
+    "try again": [
+        "Bilkul, ek aur try karo 🔄",
+        "Take another guess 😎",
+        "Dobara socho 🧠",
+        "You can do it! 💪"
+    ],
+
+    "skip question": [
+        "Question skipped ⏭️",
+        "Koi baat nahi, next question par chalte hain.",
+        "Skip kar diya 👍",
+        "Agla challenge ready hai 🔥"
+    ],
+
+    "skip": [
+        "Okay, question skip ⏭️",
+        "Next question par chalte hain.",
+        "No problem 😄",
+        "Agla sawaal!"
+    ],
+
+    "repeat question": [
+        "Bilkul, question repeat karte hain 🔄",
+        "Question dobara padho aur answer do.",
+        "Ready? 🧠",
+        "Let's try again!"
+    ],
+
+    "question repeat": [
+        "Question repeat 🔄",
+        "Dhyan se suno/read karo 😎",
+        "Ab answer do!",
+        "Ready?"
+    ],
+
+    "next": [
+        "Next Question 🔥",
+        "Chalo agle sawaal par!",
+        "Ready? 🧠",
+        "Let's continue 🎯"
+    ],
+
+    "start": [
+        "Quiz start karte hain 🎯🔥",
+        "Ready? Pehla question!",
+        "Let's begin 🧠",
+        "Game ON 😎"
+    ],
+
+    "stop": [
+        "Okay 👍 Quiz stop kar diya.",
+        "Baad mein phir continue kar sakte ho.",
+        "Quiz session pause 😊",
+        "Jab ready ho, start kar dena."
+    ],    # =========================
+    # PART 27 — QUIZ: DAILY & RAPID PRACTICE
+    # =========================
+
+    "daily gk": [
+        "📚 Daily GK time! Aaj ka question ready hai.",
+        "🧠 Roz thoda GK, roz thoda knowledge!",
+        "Aaj ka GK challenge start karein? 🔥",
+        "Ready for today's question? 🎯"
+    ],
+
+    "daily question": [
+        "🧠 Aaj ka Question ready hai!",
+        "Daily challenge ke liye ready? 🔥",
+        "Chalo aaj ka sawaal solve karte hain.",
+        "Let's begin today's challenge 🎯"
+    ],
+
+    "question of the day": [
+        "🎯 Question of the Day!",
+        "Aaj ka interesting question ready hai 🧠",
+        "Socho aur answer do 😎",
+        "Ready?"
+    ],
+
+    "daily challenge": [
+        "🔥 Daily Challenge!",
+        "Aaj ka challenge complete karna hai 🧠",
+        "Let's test your knowledge!",
+        "Challenge accepted? 😎"
+    ],
+
+    "morning quiz": [
+        "🌅 Morning Quiz!",
+        "Subah-subah thoda knowledge test karte hain 😄",
+        "Good morning + Quiz = perfect combo 🧠",
+        "Ready?"
+    ],
+
+    "night quiz": [
+        "🌙 Night Quiz!",
+        "Sone se pehle ek quick quiz ho jaye? 😄",
+        "Chalo night challenge karte hain 🧠",
+        "Ready?"
+    ],
+
+    "quick quiz": [
+        "⚡ Quick Quiz!",
+        "Bas kuch questions aur quick answers!",
+        "Ready for a short challenge? 🎯",
+        "Let's go!"
+    ],
+
+    "mini quiz": [
+        "🎯 Mini Quiz!",
+        "Short aur simple quiz start karte hain.",
+        "Kuch quick questions ke liye ready? 🧠",
+        "Let's begin!"
+    ],
+
+    "10 questions": [
+        "🔟 10 Questions Challenge!",
+        "10 questions complete karne hain 🧠🔥",
+        "Score end mein check karenge.",
+        "Ready?"
+    ],
+
+    "20 questions": [
+        "🔢 20 Questions Challenge!",
+        "Ab proper knowledge test hoga 🔥",
+        "20 questions ke liye ready?",
+        "Let's start 🧠"
+    ],
+
+    "50 questions": [
+        "🔥 50 Questions Mega Quiz!",
+        "Long challenge ke liye ready ho? 🧠",
+        "Focus maintain karna 😎",
+        "Mega Quiz begins!"
+    ],
+
+    "quiz level": [
+        "🎯 Quiz Level choose karo:",
+        "Beginner 🟢, Intermediate 🟡 ya Expert 🔴?",
+        "Difficulty select karo 🧠",
+        "Kaunsa level chahiye?"
+    ],
+
+    "difficulty": [
+        "Difficulty choose karo 🧠",
+        "Easy 🟢 / Medium 🟡 / Hard 🔴",
+        "Kis level ka challenge chahiye?",
+        "Your choice? 🎯"
+    ],
+
+    "easy": [
+        "🟢 Easy Mode selected!",
+        "Simple questions se start karte hain 😄",
+        "Ready for the first question?",
+        "Let's begin!"
+    ],
+
+    "medium": [
+        "🟡 Medium Mode selected!",
+        "Ab thoda challenge badhega 🧠",
+        "Focus karo 😎",
+        "Let's start!"
+    ],
+
+    "hard": [
+        "🔴 Hard Mode selected!",
+        "Ab questions tough honge 🔥",
+        "Full concentration chahiye 🧠",
+        "Challenge begins!"
+    ],
+
+    "expert mode": [
+        "🏆 Expert Mode!",
+        "Ab maximum difficulty hai 🔥",
+        "Sirf strong knowledge kaam aayega 😎",
+        "Ready?"
+    ],
+
+    "quiz rules": [
+        "📜 Quiz Rules:",
+        "1️⃣ Question dhyan se padho.",
+        "2️⃣ Answer carefully choose karo.",
+        "3️⃣ Score end mein check karo.",
+        "4️⃣ Sabse important — enjoy the quiz! 😄"
+    ],
+
+    "quiz help": [
+        "🧠 Quiz Help:",
+        "Subject choose karo, difficulty choose karo aur questions solve karo.",
+        "Hint bhi use kar sakte ho 💡",
+        "Ready?"
+    ],
+
+    "quiz instructions": [
+        "📚 Quiz Instructions:",
+        "Question ko carefully read karo.",
+        "Answer bhejo aur result check karo 🎯",
+        "Need a hint? 💡"
+    ],
+
+    "time limit": [
+        "⏱️ Time Limit Mode!",
+        "Har question ko limited time mein solve karna hoga.",
+        "Speed aur accuracy dono important hain 🔥",
+        "Ready?"
+    ],
+
+    "no time limit": [
+        "⏱️ No Time Limit!",
+        "Aaram se sochkar answer do 🧠",
+        "Speed ki tension nahi.",
+        "Take your time 😊"
+    ],
+
+    "quiz pause": [
+        "⏸️ Quiz Paused.",
+        "Jab ready ho, quiz continue kar sakte ho.",
+        "No problem 😊",
+        "Take a short break!"
+    ],
+
+    "continue quiz": [
+        "▶️ Quiz Continue!",
+        "Chalo wahi se continue karte hain 🔥",
+        "Ready for the next question?",
+        "Let's continue 🧠"
+    ],
+
+    "resume quiz": [
+        "▶️ Quiz Resumed!",
+        "Challenge phir se start 😎",
+        "Next question ready!",
+        "Let's go 🔥"
+    ],
+
+    "restart quiz": [
+        "🔄 Quiz Restarted!",
+        "Score reset karke fresh round start karte hain.",
+        "Ready for a new challenge? 🧠",
+        "Let's begin!"
+    ],
+
+    "reset score": [
+        "🔄 Score Reset!",
+        "Ab fresh score se start karte hain.",
+        "New round, new opportunity 🏆",
+        "Good luck!"
+    ],
+
+    "show score": [
+        "🏆 Current Score check karte hain!",
+        "Apna score batao ya quiz result dekho.",
+        "Keep improving 🧠🔥",
+        "Good luck!"
+    ],
+
+    "my score": [
+        "🎯 Tumhara score check karna hai?",
+        "Current score dekhne ke liye quiz result check karo.",
+        "High score ke liye practice karte raho 🧠",
+        "Keep going!"
+    ],
+
+    "highest score": [
+        "🏆 Highest Score!",
+        "High score ko beat karne ka challenge 😎",
+        "Competition mode ON 🔥",
+        "Can you beat the record?"
+    ],
+
+    "beat my score": [
+        "🔥 Score Beat Challenge!",
+        "Apna previous score beat karo!",
+        "New personal record banane ka time 😎",
+        "Let's go 🧠"
+    ],
+
+    "personal best": [
+        "🏆 Personal Best!",
+        "Apna best score improve karne ki koshish karo.",
+        "Every round is a new chance 🔥",
+        "Keep practicing!"
+    ],
+
+    "quiz record": [
+        "📊 Quiz Record!",
+        "Apna highest score maintain karo.",
+        "Next target aur bada rakho 🏆",
+        "Challenge accepted?"
+    ],
+
+    "quiz challenge accepted": [
+        "🔥 Challenge Accepted!",
+        "Ab quiz start karte hain 😎",
+        "Full focus 🧠",
+        "Let's do it!"
+    ],
+
+    "bring it on": [
+        "😎 Bring It On!",
+        "Challenge ke liye ready hoon!",
+        "Ab dekhte hain knowledge kitna strong hai 🧠🔥",
+        "Let's begin!"
+    ],
+
+    "i am ready": [
+        "🔥 Great! Let's start!",
+        "Ready ho to pehla question!",
+        "Quiz begins now 🧠🎯",
+        "Good luck 😎"
+    ],
+
+    "ready": [
+        "🔥 Ready!",
+        "Chalo start karte hain 🧠",
+        "Pehla question bhejo 🎯",
+        "Let's go 😎"
+    ],
+
+    "lets go": [
+        "🔥 Let's Go!",
+        "Quiz officially start!",
+        "Full focus 🧠🎯",
+        "Good luck!"
+    ],
+
+    "good luck": [
+        "Thank you 😄❤️",
+        "Good luck tumhe bhi! 🍀",
+        "Best of luck 🧠🔥",
+        "You can do it! 💪"
+    ],
+
+    "well done": [
+        "Thank you 😄❤️",
+        "Well done tum bhi! 🏆",
+        "Great job! 🔥",
+        "Keep it up 🧠"
+    ],    # =========================
+    # PART 28 — QUIZ: MEMORY & SPECIAL ROUNDS
+    # =========================
+
+    "true or false": [
+        "✅❌ True or False Quiz!",
+        "Statement ko dhyan se padho aur True ya False batao.",
+        "Ready for the challenge? 🧠",
+        "Let's begin!"
+    ],
+
+    "true": [
+        "✅ True!",
+        "Okay, tumhara answer TRUE hai.",
+        "Answer lock kar diya 🎯",
+        "Let's check!"
+    ],
+
+    "false": [
+        "❌ False!",
+        "Okay, tumhara answer FALSE hai.",
+        "Answer lock kar diya 🎯",
+        "Let's check!"
+    ],
+
+    "t or f": [
+        "✅❌ T/F Quiz!",
+        "T = True aur F = False.",
+        "Statement bhejo 🧠",
+        "Ready?"
+    ],
+
+    "yes or no quiz": [
+        "🟢 Yes/No Quiz!",
+        "Question ka answer Yes ya No mein do.",
+        "Chalo start karte hain 🎯",
+        "Ready?"
+    ],
+
+    "emoji challenge": [
+        "😎 Emoji Challenge!",
+        "Emoji dekhkar answer guess karo.",
+        "Chalo dekhte hain kitni fast guessing hai 🧠",
+        "Ready?"
+    ],
+
+    "emoji puzzle": [
+        "🧩 Emoji Puzzle!",
+        "Emojis ko dekho aur word ya phrase guess karo.",
+        "Dhyan se observe karo 😎",
+        "Answer kya hai?"
+    ],
+
+    "guess emoji": [
+        "😎 Guess the Emoji!",
+        "Emoji clues se answer guess karo.",
+        "Socho... answer kya ho sakta hai? 🧠",
+        "Your guess?"
+    ],
+
+    "emoji answer": [
+        "Emoji ka answer batao 😄",
+        "Apna best guess bhejo 🎯",
+        "Socho aur answer do 🧠",
+        "Let's check!"
+    ],
+
+    "memory challenge": [
+        "🧠 Memory Challenge!",
+        "Information ko dhyan se yaad rakho.",
+        "Baad mein usi se question hoga 🔥",
+        "Ready?"
+    ],
+
+    "memory game": [
+        "🧠 Memory Game ON!",
+        "Focus karo aur details yaad rakho.",
+        "Dekhte hain memory kitni strong hai 😎",
+        "Let's play!"
+    ],
+
+    "remember this": [
+        "🧠 Okay, remember mode ON!",
+        "Information ko dhyan se yaad rakho.",
+        "Baad mein main uske baare mein question kar sakta hoon.",
+        "Ready?"
+    ],
+
+    "remember": [
+        "Haan 😊 Yaad rakhne ke liye information bhejo.",
+        "Okay 🧠 Dhyan se dekh raha hoon.",
+        "Bhejo, phir us par question kar sakte hain.",
+        "Ready!"
+    ],
+
+    "observation quiz": [
+        "🔍 Observation Quiz!",
+        "Details ko carefully observe karna.",
+        "Chhoti cheez bhi important ho sakti hai 🧠",
+        "Ready?"
+    ],
+
+    "observation challenge": [
+        "🔍 Observation Challenge!",
+        "Dekhte hain tum kitni details notice karte ho.",
+        "Focus mode ON 😎",
+        "Challenge begins!"
+    ],
+
+    "pattern quiz": [
+        "🔢 Pattern Quiz!",
+        "Number ya shape ka pattern identify karo.",
+        "Next element guess karna hai 🧠",
+        "Ready?"
+    ],
+
+    "number puzzle": [
+        "🔢 Number Puzzle!",
+        "Numbers ko dhyan se dekho aur pattern find karo.",
+        "Answer calculate karke bhejo 🧠",
+        "Let's solve it!"
+    ],
+
+    "math puzzle": [
+        "🧮 Math Puzzle!",
+        "Thoda calculation aur logic dono lagega.",
+        "Dimaag lagao 😎",
+        "Answer kya hai?"
+    ],
+
+    "word puzzle": [
+        "🔤 Word Puzzle!",
+        "Letters ya words ko arrange karke answer find karo.",
+        "Chalo word challenge karte hain 🧠",
+        "Ready?"
+    ],
+
+    "letter puzzle": [
+        "🔤 Letter Puzzle!",
+        "Letters ko carefully dekho.",
+        "Hidden word ya pattern find karo 🎯",
+        "Let's solve!"
+    ],
+
+    "anagram": [
+        "🔤 Anagram Challenge!",
+        "Letters ko rearrange karke correct word banao.",
+        "Dimaag lagao 🧠",
+        "Your answer?"
+    ],
+
+    "odd one out": [
+        "🔍 Odd One Out!",
+        "Options mein se different item find karo.",
+        "Dhyan se observe karo 😎",
+        "Which one is different?"
+    ],
+
+    "find the mistake": [
+        "🔍 Find the Mistake!",
+        "Statement ya sequence mein mistake dhundo.",
+        "Observation skills use karo 🧠",
+        "Ready?"
+    ],
+
+    "find difference": [
+        "🔎 Find the Difference!",
+        "Do cheezon ke beech difference identify karo.",
+        "Attention to detail important hai 🎯",
+        "Let's begin!"
+    ],
+
+    "sequence": [
+        "🔢 Sequence Challenge!",
+        "Pattern samjho aur next number guess karo.",
+        "Think carefully 🧠",
+        "Answer?"
+    ],
+
+    "number sequence": [
+        "🔢 Number Sequence!",
+        "Next number kya hoga?",
+        "Pattern identify karo 🧠",
+        "Your answer?"
+    ],
+
+    "alphabet quiz": [
+        "🔤 Alphabet Quiz!",
+        "Letters aur alphabet patterns ke questions.",
+        "Chalo test karte hain 🧠",
+        "Ready?"
+    ],
+
+    "color quiz": [
+        "🎨 Color Quiz!",
+        "Colors identify aur match karne ka challenge.",
+        "Observation skills test karte hain 😎",
+        "Ready?"
+    ],
+
+    "shape quiz": [
+        "🔷 Shape Quiz!",
+        "Shapes aur patterns ke questions.",
+        "Chalo visual thinking test karte hain 🧠",
+        "Ready?"
+    ],
+
+    "memory score": [
+        "🧠 Memory Score!",
+        "Dekhte hain kitni information correctly yaad rahi.",
+        "Focus aur practice se memory improve hoti hai 💪",
+        "Great effort!"
+    ],
+
+    "memory master": [
+        "🏆 Memory Master!",
+        "Amazing memory performance 🔥",
+        "Tumne details bahut achhi tarah remember ki!",
+        "Excellent 🧠"
+    ],
+
+    "logic master": [
+        "🏆 Logic Master!",
+        "Reasoning skills strong hain 🔥",
+        "Excellent logical thinking!",
+        "Keep challenging yourself 🧠"
+    ],
+
+    "quiz master": [
+        "🏆 Quiz Master!",
+        "Knowledge aur logic dono strong hain!",
+        "Amazing performance 🔥🧠",
+        "Master level unlocked!"
+    ],
+
+    "brain master": [
+        "🧠🏆 Brain Master!",
+        "Excellent problem-solving skills!",
+        "Challenge successfully completed 🔥",
+        "Outstanding!"
+    ],
+
+    "challenge complete": [
+        "🎉 Challenge Complete!",
+        "Great job! Tumne challenge finish kar diya.",
+        "Ab result check kar sakte ho 🏆",
+        "Well played 😎"
+    ],
+
+    "challenge failed": [
+        "Challenge complete nahi hua 😄",
+        "Koi problem nahi, dobara try karo 💪",
+        "Practice ke baad aur better hoga 🧠",
+        "Don't give up!"
+    ],
+
+    "try quiz": [
+        "🎯 Quiz try karna hai?",
+        "Topic aur difficulty choose karo.",
+        "Main quiz ke liye ready hoon 🧠",
+        "Let's start!"
+    ],
+
+    "start quiz": [
+        "🚀 Quiz Start!",
+        "Topic choose karo ya mixed quiz khelo.",
+        "Pehla question ready hai 🧠",
+        "Good luck!"
+    ],
+
+    "end quiz": [
+        "🏁 Quiz End!",
+        "Quiz session finish ho gaya.",
+        "Great attempt ❤️",
+        "Jab chaho naya quiz start kar sakte ho."
+    ],
+
+    "finish quiz": [
+        "🎉 Quiz Finished!",
+        "Good game! 🧠",
+        "Apna result check karo 🏆",
+        "Next challenge ke liye ready raho!"
+    ],    # =========================
+    # PART 29 — QUIZ: COMPETITION & SCORE
+    # =========================
+
+    "quiz competition": [
+        "🏆 Quiz Competition!",
+        "Ab competition mode ON 🔥",
+        "Apni knowledge test karo aur high score banao!",
+        "Ready?"
+    ],
+
+    "competition": [
+        "🔥 Competition Mode!",
+        "Ab challenge thoda tough hoga 😎",
+        "Full focus ke saath answer do 🧠",
+        "Let's compete!"
+    ],
+
+    "challenge mode": [
+        "🔥 Challenge Mode ON!",
+        "Ab normal quiz nahi, proper challenge hai!",
+        "Focus rakho 🧠",
+        "Let's begin!"
+    ],
+
+    "speed quiz": [
+        "⚡ Speed Quiz!",
+        "Jaldi answer karo, lekin accuracy bhi maintain rakho.",
+        "Speed + Knowledge = High Score 🏆",
+        "Ready?"
+    ],
+
+    "fast quiz": [
+        "⚡ Fast Quiz!",
+        "Quick questions ke quick answers!",
+        "Let's test your speed 🧠",
+        "Go!"
+    ],
+
+    "rapid fire": [
+        "🔥 RAPID FIRE!",
+        "Ek ke baad ek questions aayenge.",
+        "Sochne ka time kam, focus zyada 😎",
+        "Ready?"
+    ],
+
+    "rapid fire quiz": [
+        "⚡ Rapid Fire Quiz!",
+        "Questions fast-fast aayenge.",
+        "Answer quickly 🎯",
+        "Let's go!"
+    ],
+
+    "quiz battle": [
+        "⚔️ Quiz Battle!",
+        "Knowledge battle start karte hain!",
+        "Dekhte hain score kitna high jaata hai 🏆",
+        "Battle Ready?"
+    ],
+
+    "brain battle": [
+        "🧠⚔️ Brain Battle!",
+        "Logic aur knowledge ka test hoga.",
+        "Apna best performance do 🔥",
+        "Let's battle!"
+    ],
+
+    "knowledge test": [
+        "🧠 Knowledge Test!",
+        "Dekhte hain tumhari general knowledge kitni strong hai.",
+        "Questions ke liye ready?",
+        "Let's test it!"
+    ],
+
+    "brain test": [
+        "🧠 Brain Test!",
+        "Logic, memory aur knowledge ka challenge.",
+        "Dimaag ko ready rakho 🔥",
+        "Challenge begins!"
+    ],
+
+    "iq test": [
+        "🧠 IQ Style Test!",
+        "Logic aur reasoning questions ke liye ready?",
+        "Dhyan se answer dena 🎯",
+        "Let's begin!"
+    ],
+
+    "logic quiz": [
+        "🧠 Logic Quiz!",
+        "Reasoning aur logical thinking ka test.",
+        "Question ko carefully analyze karo.",
+        "Your answer?"
+    ],
+
+    "reasoning": [
+        "🧠 Reasoning Practice!",
+        "Logical reasoning ka question bhejo.",
+        "Pattern aur logic par focus karo.",
+        "Let's solve!"
+    ],
+
+    "aptitude": [
+        "📊 Aptitude Practice!",
+        "Maths, logic aur reasoning ke questions karte hain.",
+        "Question bhejo 🧠",
+        "Ready?"
+    ],
+
+    "competitive exam": [
+        "🏆 Competitive Exam Practice!",
+        "Competitive exams ke style mein questions solve karte hain.",
+        "GK, Maths, Reasoning ya English choose karo.",
+        "Let's practice!"
+    ],
+
+    "quiz score": [
+        "🏆 Quiz Score!",
+        "Score jitna high, performance utni better!",
+        "Practice karte raho 🧠🔥",
+        "Next target set karo!"
+    ],
+
+    "score": [
+        "📊 Score check karna hai?",
+        "Quiz ka current result check karo.",
+        "High score ke liye ek aur round khelo 🔥",
+        "Keep improving!"
+    ],
+
+    "score card": [
+        "📋 Score Card!",
+        "Correct answers, wrong answers aur total score check karo.",
+        "Apni performance analyze karo 🧠",
+        "Next round mein better score lao!"
+    ],
+
+    "result": [
+        "🏆 Quiz Result!",
+        "Result dekhne ka time aa gaya.",
+        "Dekho kitne answers correct hue.",
+        "Great attempt! ❤️"
+    ],
+
+    "quiz result": [
+        "📊 Quiz Result Ready!",
+        "Apni performance check karo.",
+        "Correct answers aur score dekho 🏆",
+        "Next target aur bada rakho!"
+    ],
+
+    "perfect score": [
+        "🏆🔥 PERFECT SCORE!",
+        "Ek bhi mistake nahi! Amazing!",
+        "Tumne quiz ko completely master kar liya 😎",
+        "Outstanding performance!"
+    ],
+
+    "full marks": [
+        "💯 FULL MARKS!",
+        "Wah! Saare answers correct 🔥",
+        "Excellent knowledge 🧠🏆",
+        "Keep it up!"
+    ],
+
+    "zero score": [
+        "😄 Score low hai, lekin tension nahi!",
+        "Har attempt practice hai ❤️",
+        "Dobara try karo, next score better hoga 💪",
+        "Never give up!"
+    ],
+
+    "low score": [
+        "Score kam hai? Koi baat nahi 😊",
+        "Mistakes se learning hoti hai 🧠",
+        "Ek aur attempt karo 💪",
+        "Next time better!"
+    ],
+
+    "high score": [
+        "🔥 HIGH SCORE!",
+        "Bahut badhiya performance 🏆",
+        "Knowledge strong hai 😎",
+        "Can you beat it?"
+    ],
+
+    "new record": [
+        "🏆🔥 NEW RECORD!",
+        "Tumne apna previous score beat kar diya!",
+        "Amazing improvement 🧠",
+        "Keep going!"
+    ],
+
+    "record broken": [
+        "💥 RECORD BROKEN!",
+        "New personal best! 🏆",
+        "Excellent performance 🔥",
+        "Next target aur bada!"
+    ],
+
+    "one more": [
+        "🔥 One More Round!",
+        "Chalo ek aur quiz karte hain.",
+        "Is baar score aur better karna hai 🧠",
+        "Ready?"
+    ],
+
+    "again quiz": [
+        "🔄 Quiz Again!",
+        "Fresh round start karte hain.",
+        "Previous mistakes se seekho 🧠",
+        "Let's go!"
+    ],
+
+    "play again": [
+        "🎮 Play Again!",
+        "Chalo ek aur round!",
+        "New questions, new score 🏆",
+        "Ready?"
+    ],
+
+    "new quiz": [
+        "🆕 New Quiz!",
+        "Fresh questions ke saath start karte hain.",
+        "Topic choose karo ya mixed quiz khelo.",
+        "Let's begin!"
+    ],
+
+    "mixed quiz": [
+        "🎯 Mixed Quiz!",
+        "GK + Science + History + Geography + Maths!",
+        "Har question different topic se ho sakta hai 🧠",
+        "Ready?"
+    ],
+
+    "random quiz": [
+        "🎲 Random Quiz!",
+        "Questions random topics se aayenge.",
+        "Kuch bhi poocha ja sakta hai 😎",
+        "Challenge accepted?"
+    ],
+
+    "surprise quiz": [
+        "🎁 Surprise Quiz!",
+        "Question ka topic surprise hoga 😎",
+        "Ready for anything?",
+        "Let's begin!"
+    ],
+
+    "ultimate quiz": [
+        "👑 ULTIMATE QUIZ!",
+        "Mixed knowledge ka mega challenge!",
+        "Easy se hard tak questions aa sakte hain 🔥",
+        "Are you ready?"
+    ],
+
+    "mega quiz": [
+        "🔥 MEGA QUIZ!",
+        "Long knowledge challenge start karte hain.",
+        "Focus + patience + knowledge 🧠",
+        "Let's begin!"
+    ],
+
+    "quiz champion": [
+        "🏆👑 QUIZ CHAMPION!",
+        "Amazing! Tumne challenge dominate kar diya.",
+        "Knowledge level next level 🔥",
+        "Congratulations!"
+    ],
+
+    "winner": [
+        "🏆 WINNER!",
+        "Congratulations! 🎉",
+        "Tumne excellent performance diya.",
+        "Champion vibes 😎🔥"
+    ],
+
+    "i won": [
+        "🏆 Congratulations!",
+        "You won! 🔥🎉",
+        "Excellent performance 😎",
+        "Ab next challenge?"
+    ],
+
+    "i lost": [
+        "Koi baat nahi ❤️",
+        "Har game se kuch seekhne ko milta hai.",
+        "Next round mein comeback karo 🔥",
+        "Never give up!"
+    ],    # =========================
+    # PART 30 — QUIZ: STUDY PRACTICE
+    # =========================
+
+    "study quiz": [
+        "📚 Study Quiz!",
+        "Padhai ke saath quiz practice karte hain 🧠",
+        "Subject choose karo aur start karo!",
+        "Ready?"
+    ],
+
+    "study": [
+        "📚 Study Mode ON!",
+        "Kis subject ki padhai karni hai?",
+        "GK, Science, Maths, English ya History? 🧠",
+        "Batao!"
+    ],
+
+    "study mode": [
+        "📖 Study Mode activated!",
+        "Ab focus sirf learning aur practice par 🎯",
+        "Question bhejo ya subject choose karo.",
+        "Let's learn!"
+    ],
+
+    "student": [
+        "🎓 Student Mode!",
+        "Padhai aur practice mein main tumhari help kar sakta hoon.",
+        "Question bhejo 📚",
+        "Let's study!"
+    ],
+
+    "student quiz": [
+        "🎓 Student Quiz!",
+        "Study-related questions ke liye ready?",
+        "Subject choose karo 📚",
+        "Let's begin!"
+    ],
+
+    "school quiz": [
+        "🏫 School Quiz!",
+        "School-level questions practice karte hain.",
+        "Class ya subject batao 🧠",
+        "Ready?"
+    ],
+
+    "class 5": [
+        "📚 Class 5 Quiz!",
+        "Class 5 level ke questions se practice karte hain.",
+        "GK, Maths, Science ya English choose karo.",
+        "Ready?"
+    ],
+
+    "class 6": [
+        "📚 Class 6 Quiz!",
+        "Class 6 level practice start karte hain.",
+        "Subject choose karo 🧠",
+        "Let's begin!"
+    ],
+
+    "class 7": [
+        "📚 Class 7 Quiz!",
+        "Class 7 level ke questions ready hain.",
+        "Kis subject se start karein?",
+        "Let's practice!"
+    ],
+
+    "class 8": [
+        "📚 Class 8 Quiz!",
+        "Class 8 level ka knowledge test karte hain.",
+        "Subject choose karo 🧠",
+        "Ready?"
+    ],
+
+    "class 9": [
+        "📚 Class 9 Quiz!",
+        "Class 9 level ke questions practice karte hain.",
+        "Science, Maths, English ya Social Science?",
+        "Let's start!"
+    ],
+
+    "class 10": [
+        "📚 Class 10 Quiz!",
+        "Board-level practice ke liye ready?",
+        "Subject choose karo 🧠",
+        "Let's practice!"
+    ],
+
+    "class 11": [
+        "📚 Class 11 Quiz!",
+        "Class 11 level ke questions solve karte hain.",
+        "Subject batao.",
+        "Ready?"
+    ],
+
+    "class 12": [
+        "📚 Class 12 Quiz!",
+        "Class 12 level practice start karte hain.",
+        "Subject choose karo 🧠",
+        "Let's begin!"
+    ],
+
+    "school exam": [
+        "📝 School Exam Practice!",
+        "Exam-style questions solve karte hain.",
+        "Subject aur class batao 📚",
+        "Ready?"
+    ],
+
+    "board exam": [
+        "📝 Board Exam Practice!",
+        "Important concepts aur practice questions par focus karte hain.",
+        "Subject batao 🧠",
+        "All the best! 💪"
+    ],
+
+    "homework": [
+        "📚 Homework Help!",
+        "Homework ka question bhejo.",
+        "Main concept samajhne mein help karunga.",
+        "Question bhejo 😊"
+    ],
+
+    "homework help": [
+        "📝 Homework Help!",
+        "Question ki photo ya text bhej sakte ho.",
+        "Chalo step-by-step samajhte hain 🧠",
+        "Ready?"
+    ],
+
+    "question answer": [
+        "❓ Question Answer Mode!",
+        "Question bhejo aur answer discuss karte hain.",
+        "Study-related question ho to bhejo 📚",
+        "Let's solve!"
+    ],
+
+    "ask question": [
+        "❓ Question poochho!",
+        "Main question samajhne ki koshish karunga.",
+        "Pura question bhejna best rahega 🧠",
+        "Bolo!"
+    ],
+
+    "ask me": [
+        "😎 Main tumse question poochun?",
+        "Quiz mode start kar sakte hain.",
+        "Topic choose karo 📚",
+        "Ready?"
+    ],
+
+    "test me": [
+        "🧠 Test Mode ON!",
+        "Main tumhara knowledge test kar sakta hoon.",
+        "Subject choose karo.",
+        "Ready for the challenge?"
+    ],
+
+    "quiz me": [
+        "🎯 Sure! Main tumhara quiz le sakta hoon.",
+        "Topic batao: GK, Science, Maths, History ya English.",
+        "Difficulty bhi choose kar sakte ho.",
+        "Let's begin!"
+    ],
+
+    "ask question quiz": [
+        "❓ Quiz Question!",
+        "Question dhyan se padho aur answer do.",
+        "No cheating 😄",
+        "Good luck!"
+    ],
+
+    "answer this": [
+        "🧠 Question bhejo!",
+        "Main usko solve karne mein help karunga.",
+        "Answer ke saath explanation bhi discuss kar sakte hain.",
+        "Send it!"
+    ],
+
+    "solve this": [
+        "🧮 Solve Mode ON!",
+        "Question bhejo.",
+        "Step-by-step solution discuss karte hain.",
+        "Let's solve it 🧠"
+    ],
+
+    "solve question": [
+        "📚 Question bhejo!",
+        "Chalo step-by-step solve karte hain.",
+        "Calculation ho ya theory, try karte hain 🧠",
+        "Ready?"
+    ],
+
+    "explain": [
+        "📖 Explanation Mode!",
+        "Jo concept samajhna hai woh batao.",
+        "Main simple language mein explain karunga.",
+        "Bolo 😊"
+    ],
+
+    "simple explain": [
+        "😊 Simple Explanation Mode!",
+        "Difficult concept ko easy words mein samajhte hain.",
+        "Topic ya question bhejo.",
+        "Let's learn!"
+    ],
+
+    "easy explanation": [
+        "📚 Easy Explanation!",
+        "Main concept ko simple example ke saath explain karunga.",
+        "Question bhejo 🧠",
+        "Ready?"
+    ],
+
+    "short answer": [
+        "✍️ Short Answer Mode!",
+        "Answer concise rakhenge.",
+        "Question bhejo.",
+        "Let's go!"
+    ],
+
+    "long answer": [
+        "📖 Detailed Answer Mode!",
+        "Concept ko detail mein discuss kar sakte hain.",
+        "Question bhejo.",
+        "Let's learn!"
+    ],
+
+    "mcq": [
+        "📝 MCQ Mode!",
+        "Multiple Choice Questions ke liye ready?",
+        "Options A, B, C, D mein se choose karo.",
+        "Let's begin!"
+    ],
+
+    "multiple choice": [
+        "📝 Multiple Choice Quiz!",
+        "Correct option choose karna hai.",
+        "A / B / C / D mein answer do 🎯",
+        "Ready?"
+    ],
+
+    "option a": [
+        "🅰️ Option A selected!",
+        "Answer lock kar diya.",
+        "Let's check the result 🧠",
+        "Good luck!"
+    ],
+
+    "option b": [
+        "🅱️ Option B selected!",
+        "Answer lock kar diya.",
+        "Let's check 🎯",
+        "Good luck!"
+    ],
+
+    "option c": [
+        "©️ Option C selected!",
+        "Answer lock kar diya.",
+        "Let's check the result 🧠",
+        "Good luck!"
+    ],
+
+    "option d": [
+        "🅳 Option D selected!",
+        "Answer lock kar diya.",
+        "Let's check 🎯",
+        "Good luck!"
+    ],
+
+    "true false": [
+        "✅❌ True/False Mode!",
+        "Statement padho aur True ya False answer do.",
+        "Ready?"
+    ],
+
+    "fill in the blank": [
+        "✍️ Fill in the Blank!",
+        "Missing word ya value identify karo.",
+        "Answer complete karo 🧠",
+        "Let's start!"
+    ],
+
+    "fill blanks": [
+        "✍️ Fill in the Blanks!",
+        "Blank mein correct answer bharna hai.",
+        "Question bhejo 📚",
+        "Ready?"
+    ],
+
+    "match the following": [
+        "🔗 Match the Following!",
+        "Correct pairs identify karo.",
+        "Dhyan se match karna 🧠",
+        "Let's begin!"
+    ],
+
+    "one word answer": [
+        "✍️ One Word Answer!",
+        "Sirf ek suitable word mein answer do.",
+        "Question bhejo.",
+        "Ready?"
+    ],
+
+    "short question": [
+        "📝 Short Question!",
+        "Short aur direct answer dena hai.",
+        "Question bhejo 🧠",
+        "Let's solve!"
+    ],
+
+    "important question": [
+        "⭐ Important Question!",
+        "Is type ke questions exam preparation mein useful ho sakte hain.",
+        "Question bhejo 📚",
+        "Let's practice!"
+    ],
+
+    "important questions": [
+        "⭐ Important Questions!",
+        "Practice ke liye important questions karte hain.",
+        "Subject batao 🧠",
+        "Ready?"
+    ],    # =========================
+    # PART 31 — QUIZ: EXAM & LEARNING
+    # =========================
+
+    "revision": [
+        "📚 Revision Mode ON!",
+        "Purane topics ko revise karte hain 🧠",
+        "Revision ke liye subject batao.",
+        "Chalo knowledge refresh karte hain!"
+    ],
+
+    "revise": [
+        "🔄 Revision Time!",
+        "Kaunsa topic revise karna hai?",
+        "Question bhejo ya subject choose karo 📚",
+        "Let's revise!"
+    ],
+
+    "quick revision": [
+        "⚡ Quick Revision!",
+        "Important points ko quickly revise karte hain.",
+        "Topic batao 🧠",
+        "Ready?"
+    ],
+
+    "exam preparation": [
+        "📝 Exam Preparation Mode!",
+        "Preparation ko smart aur consistent rakho.",
+        "Subject batao, practice start karte hain 📚",
+        "All the best! 💪"
+    ],
+
+    "prepare for exam": [
+        "📚 Exam Preparation!",
+        "Pehle subject aur topic choose karo.",
+        "Phir questions practice karte hain 🧠",
+        "Let's prepare!"
+    ],
+
+    "exam practice": [
+        "📝 Exam Practice!",
+        "Exam-style questions solve karte hain.",
+        "Subject batao 🎯",
+        "Ready?"
+    ],
+
+    "mock test": [
+        "📝 Mock Test Mode!",
+        "Real exam jaisa practice round karte hain.",
+        "Time aur accuracy dono important hain ⏱️",
+        "Ready?"
+    ],
+
+    "mock exam": [
+        "🎓 Mock Exam!",
+        "Full exam-style practice ke liye ready?",
+        "Subject aur level choose karo.",
+        "Let's begin!"
+    ],
+
+    "test paper": [
+        "📄 Test Paper Mode!",
+        "Practice test ke questions solve karte hain.",
+        "Subject batao 🧠",
+        "Ready?"
+    ],
+
+    "sample paper": [
+        "📄 Sample Paper Practice!",
+        "Sample questions ke through preparation karte hain.",
+        "Subject batao 📚",
+        "Let's practice!"
+    ],
+
+    "important topic": [
+        "⭐ Important Topic!",
+        "Kis topic par focus karna hai?",
+        "Topic bhejo, practice karte hain 🧠",
+        "Let's learn!"
+    ],
+
+    "important topics": [
+        "⭐ Important Topics!",
+        "Exam preparation ke liye important topics choose karo.",
+        "Subject batao 📚",
+        "Ready?"
+    ],
+
+    "chapter quiz": [
+        "📖 Chapter Quiz!",
+        "Kisi ek chapter ka quiz practice karte hain.",
+        "Chapter ka naam batao 🧠",
+        "Let's start!"
+    ],
+
+    "chapter test": [
+        "📝 Chapter Test!",
+        "Ek chapter ka focused test karte hain.",
+        "Chapter aur subject batao.",
+        "Ready?"
+    ],
+
+    "topic quiz": [
+        "🎯 Topic Quiz!",
+        "Sirf ek topic par questions karte hain.",
+        "Topic ka naam bhejo 📚",
+        "Let's begin!"
+    ],
+
+    "topic test": [
+        "🧠 Topic Test!",
+        "Selected topic ka knowledge test karte hain.",
+        "Topic batao.",
+        "Ready?"
+    ],
+
+    "concept": [
+        "🧠 Concept Mode!",
+        "Kis concept ko samajhna hai?",
+        "Naam batao, phir us par practice karte hain.",
+        "Let's learn!"
+    ],
+
+    "concept test": [
+        "🧠 Concept Test!",
+        "Concept ko samajhne ke baad questions solve karte hain.",
+        "Topic batao 📚",
+        "Ready?"
+    ],
+
+    "basics": [
+        "📚 Basics Mode!",
+        "Pehle fundamentals strong karte hain.",
+        "Subject batao 🧠",
+        "Let's start!"
+    ],
+
+    "basic quiz": [
+        "🟢 Basic Quiz!",
+        "Fundamental-level questions se start karte hain.",
+        "Simple se questions aayenge.",
+        "Ready?"
+    ],
+
+    "advanced quiz": [
+        "🔴 Advanced Quiz!",
+        "Ab questions thode challenging honge.",
+        "Logic aur concepts par focus karo 🧠",
+        "Ready?"
+    ],
+
+    "difficult question": [
+        "🔥 Difficult Question!",
+        "Isme thoda extra dimaag lagana padega.",
+        "Question ko carefully analyze karo 🧠",
+        "Give it your best!"
+    ],
+
+    "easy question": [
+        "🟢 Easy Question!",
+        "Ye basic level ka question hai.",
+        "Dhyan se answer do 😊",
+        "Good luck!"
+    ],
+
+    "medium question": [
+        "🟡 Medium Question!",
+        "Thoda thinking required hai 🧠",
+        "Options ko carefully check karo.",
+        "Your answer?"
+    ],
+
+    "hard question": [
+        "🔴 Hard Question!",
+        "Challenge accepted? 🔥",
+        "Question ko step-by-step analyze karo.",
+        "Good luck!"
+    ],
+
+    "question bank": [
+        "📚 Question Bank!",
+        "Practice ke liye questions choose karo.",
+        "Subject aur topic batao.",
+        "Let's practice!"
+    ],
+
+    "quiz questions": [
+        "🧠 Quiz Questions!",
+        "Kis subject ke questions chahiye?",
+        "GK, Maths, Science, English ya History?",
+        "Choose one!"
+    ],
+
+    "more questions": [
+        "➕ More Questions!",
+        "Bilkul, aur questions karte hain.",
+        "Next set ke liye ready? 🔥",
+        "Let's continue!"
+    ],
+
+    "few questions": [
+        "📝 Few Questions!",
+        "Short practice round karte hain.",
+        "Kuch questions ke baad result check karenge.",
+        "Ready?"
+    ],
+
+    "last question": [
+        "🏁 Last Question!",
+        "Ye round ka final question hai.",
+        "Full focus ke saath answer do 🧠",
+        "Good luck!"
+    ],
+
+    "final question": [
+        "🔥 Final Question!",
+        "Last chance to increase your score!",
+        "Dhyan se answer do 🏆",
+        "You got this!"
+    ],
+
+    "answer key": [
+        "🔑 Answer Key!",
+        "Correct answers ko check karna useful hai.",
+        "Apni mistakes identify karo aur revise karo 📚",
+        "Keep learning!"
+    ],
+
+    "check answers": [
+        "🔍 Answers Check!",
+        "Apne answers ko correct answers se compare karo.",
+        "Mistakes se learning hoti hai 🧠",
+        "Keep improving!"
+    ],
+
+    "check my answer": [
+        "🔍 Answer Check!",
+        "Question aur tumhara answer bhejo.",
+        "Phir correctness discuss karte hain 🧠",
+        "Let's check!"
+    ],
+
+    "why wrong": [
+        "❓ Galat kyun hua?",
+        "Question aur selected answer bhejo.",
+        "Concept ko simple way mein samajhte hain 📚",
+        "Let's find the mistake!"
+    ],
+
+    "why correct": [
+        "✅ Correct kyun hai?",
+        "Question bhejo, concept explain karte hain.",
+        "Reason samajhna answer yaad rakhne se better hai 🧠",
+        "Let's learn!"
+    ],
+
+    "learn from mistake": [
+        "🧠 Mistake se Learning!",
+        "Galti ko identify karo aur concept samjho.",
+        "Next attempt mein better performance aayega 💪",
+        "Keep practicing!"
+    ],
+
+    "study tips": [
+        "📚 Study Tips:",
+        "1️⃣ Short sessions mein padhai karo.",
+        "2️⃣ Revision regularly karo.",
+        "3️⃣ Practice questions solve karo.",
+        "4️⃣ Difficult topics ke notes banao."
+    ],
+
+    "exam tips": [
+        "📝 Exam Tips:",
+        "1️⃣ Question carefully read karo.",
+        "2️⃣ Easy questions pehle solve karo.",
+        "3️⃣ Time manage karo.",
+        "4️⃣ Answer submit karne se pehle review karo."
+    ],
+
+    "memory tips": [
+        "🧠 Memory Tips:",
+        "Concept ko samajhkar yaad karo.",
+        "Short revision sessions rakho.",
+        "Examples aur practice questions use karo.",
+        "Regular revision helpful hota hai."
+    ],
+
+    "focus tips": [
+        "🎯 Focus Tips:",
+        "Phone distractions kam rakho.",
+        "Ek time par ek topic par focus karo.",
+        "Short breaks lete raho.",
+        "Consistency sabse important hai 💪"
+    ],    # =========================
+    # PART 32 — QUIZ: GENERAL KNOWLEDGE
+    # =========================
+
+    "india quiz": [
+        "🇮🇳 India Quiz!",
+        "India ke history, geography, culture aur general knowledge ke questions!",
+        "Ready? 🧠",
+        "Let's begin!"
+    ],
+
+    "indian gk": [
+        "🇮🇳 Indian GK Mode!",
+        "India se related GK questions solve karte hain.",
+        "Pehla question bhejo 🧠",
+        "Ready?"
+    ],
+
+    "world gk": [
+        "🌍 World GK!",
+        "Duniya ke countries, places aur important facts ke questions.",
+        "Knowledge test karte hain 🔥",
+        "Ready?"
+    ],
+
+    "country quiz": [
+        "🌎 Country Quiz!",
+        "Countries, capitals, flags aur geography ke questions.",
+        "Let's test your knowledge 🧠",
+        "Ready?"
+    ],
+
+    "capital quiz": [
+        "🏙️ Capital Quiz!",
+        "Countries ki capitals identify karo.",
+        "Dekhte hain geography kitni strong hai 🧠",
+        "Let's start!"
+    ],
+
+    "flag quiz": [
+        "🚩 Flag Quiz!",
+        "Flag dekhkar country guess karne ka challenge.",
+        "Observation skills test karo 😎",
+        "Ready?"
+    ],
+
+    "currency quiz": [
+        "💰 Currency Quiz!",
+        "Different countries ki currencies ke questions.",
+        "Knowledge test karte hain 🧠",
+        "Let's begin!"
+    ],
+
+    "river quiz": [
+        "🌊 River Quiz!",
+        "Famous rivers aur geography ke questions.",
+        "Question solve karo 🧠",
+        "Ready?"
+    ],
+
+    "mountain quiz": [
+        "🏔️ Mountain Quiz!",
+        "Famous mountains aur geography facts ke questions.",
+        "Let's test your knowledge!",
+        "Ready?"
+    ],
+
+    "ocean quiz": [
+        "🌊 Ocean Quiz!",
+        "Oceans, seas aur geography ke questions.",
+        "Think carefully 🧠",
+        "Let's begin!"
+    ],
+
+    "history quiz": [
+        "🏛️ History Quiz!",
+        "Historical events aur important facts ke questions.",
+        "Past ko test karte hain 📚",
+        "Ready?"
+    ],
+
+    "ancient history": [
+        "🏛️ Ancient History!",
+        "Ancient civilizations aur historical facts ke questions.",
+        "History mode ON 🧠",
+        "Let's begin!"
+    ],
+
+    "modern history": [
+        "📚 Modern History!",
+        "Modern historical events ke questions.",
+        "Knowledge test karte hain 🧠",
+        "Ready?"
+    ],
+
+    "science quiz": [
+        "🔬 Science Quiz!",
+        "Physics, Chemistry aur Biology mix questions.",
+        "Science knowledge test karte hain 🧠",
+        "Let's start!"
+    ],
+
+    "physics quiz": [
+        "⚡ Physics Quiz!",
+        "Force, motion, energy aur physics concepts.",
+        "Question solve karo 🧠",
+        "Ready?"
+    ],
+
+    "chemistry quiz": [
+        "🧪 Chemistry Quiz!",
+        "Elements, compounds aur reactions ke questions.",
+        "Let's test your chemistry knowledge!",
+        "Ready?"
+    ],
+
+    "biology quiz": [
+        "🧬 Biology Quiz!",
+        "Plants, animals, cells aur human body ke questions.",
+        "Biology mode ON 🔬",
+        "Let's begin!"
+    ],
+
+    "space quiz": [
+        "🚀 Space Quiz!",
+        "Planets, stars, galaxies aur universe ke questions.",
+        "Space knowledge test karte hain 🌌",
+        "Ready?"
+    ],
+
+    "planet quiz": [
+        "🪐 Planet Quiz!",
+        "Solar System ke planets ke questions.",
+        "Let's explore the Solar System 🧠",
+        "Ready?"
+    ],
+
+    "computer quiz": [
+        "💻 Computer Quiz!",
+        "Computer basics, hardware aur software ke questions.",
+        "Tech knowledge test karte hain 🧠",
+        "Let's begin!"
+    ],
+
+    "internet quiz": [
+        "🌐 Internet Quiz!",
+        "Internet aur digital technology ke basic questions.",
+        "Ready for the challenge?",
+        "Let's start!"
+    ],
+
+    "sports quiz": [
+        "🏆 Sports Quiz!",
+        "Different sports aur famous events ke questions.",
+        "Sports knowledge test karte hain 🔥",
+        "Ready?"
+    ],
+
+    "cricket quiz": [
+        "🏏 Cricket Quiz!",
+        "Cricket rules, terms aur general knowledge ke questions.",
+        "Cricket fans ready? 🔥",
+        "Let's play!"
+    ],
+
+    "football quiz": [
+        "⚽ Football Quiz!",
+        "Football rules aur general knowledge ke questions.",
+        "Ready for the challenge? 🧠",
+        "Let's go!"
+    ],
+
+    "bollywood quiz": [
+        "🎬 Bollywood Quiz!",
+        "Movies, songs aur Bollywood general knowledge.",
+        "Entertainment knowledge test karte hain 😎",
+        "Ready?"
+    ],
+
+    "movie quiz": [
+        "🎬 Movie Quiz!",
+        "Movies aur entertainment se related questions.",
+        "Let's test your movie knowledge!",
+        "Ready?"
+    ],
+
+    "music quiz": [
+        "🎵 Music Quiz!",
+        "Songs, instruments aur music knowledge ke questions.",
+        "Music lovers ready? 🎶",
+        "Let's begin!"
+    ],
+
+    "animal quiz": [
+        "🐯 Animal Quiz!",
+        "Animals, habitats aur interesting facts ke questions.",
+        "Let's test your animal knowledge 🧠",
+        "Ready?"
+    ],
+
+    "nature quiz": [
+        "🌳 Nature Quiz!",
+        "Nature, environment aur wildlife ke questions.",
+        "Knowledge test karte hain 🌍",
+        "Ready?"
+    ],
+
+    "environment quiz": [
+        "🌱 Environment Quiz!",
+        "Environment aur conservation ke questions.",
+        "Let's learn about our planet 🌍",
+        "Ready?"
+    ],
+
+    "food quiz": [
+        "🍕 Food Quiz!",
+        "Food aur different cuisines ke fun questions.",
+        "Food knowledge test karein? 😋",
+        "Let's start!"
+    ],
+
+    "festival quiz": [
+        "🎉 Festival Quiz!",
+        "Different festivals aur traditions ke general questions.",
+        "Culture knowledge test karte hain 🧠",
+        "Ready?"
+    ],
+
+    "culture quiz": [
+        "🌏 Culture Quiz!",
+        "Culture, traditions aur interesting facts ke questions.",
+        "Let's explore knowledge!",
+        "Ready?"
+    ],
+
+    "invention quiz": [
+        "💡 Invention Quiz!",
+        "Important inventions aur inventors ke questions.",
+        "Think carefully 🧠",
+        "Let's begin!"
+    ],
+
+    "famous people quiz": [
+        "⭐ Famous People Quiz!",
+        "Famous personalities ke general knowledge questions.",
+        "Knowledge test karte hain 🧠",
+        "Ready?"
+    ],
+
+    "record quiz": [
+        "🏆 World Records Quiz!",
+        "Interesting world records ke questions.",
+        "Dekhte hain kitna yaad hai 😎",
+        "Let's start!"
+    ],
+
+    "random gk": [
+        "🎲 Random GK!",
+        "Koi bhi GK topic aa sakta hai.",
+        "Ready for a surprise question? 🧠",
+        "Let's go!"
+    ],
+
+    "gk challenge": [
+        "🔥 GK Challenge!",
+        "General Knowledge ka proper test!",
+        "Focus karo aur best answer do 🧠",
+        "Challenge starts now!"
+    ],
+
+    "gk test": [
+        "🧠 GK Test!",
+        "General Knowledge test ke liye ready?",
+        "Questions carefully solve karo.",
+        "Good luck!"
+    ],
+
+    "gk question": [
+        "❓ GK Question!",
+        "Question bhejo ya GK quiz start karo.",
+        "Knowledge test karte hain 🧠",
+        "Ready?"
+    ],
+
+    "daily knowledge": [
+        "📚 Daily Knowledge!",
+        "Har din kuch naya seekhna best habit hai.",
+        "Aaj ka knowledge challenge karein? 🧠",
+        "Let's learn!"
+    ],    # =========================
+    # PART 33 — QUIZ: MATHS & LOGIC
+    # =========================
+
+    "maths quiz": [
+        "🧮 Maths Quiz!",
+        "Numbers aur calculations ka challenge!",
+        "Ready? 🧠",
+        "Let's start!"
+    ],
+
+    "math quiz": [
+        "🧮 Math Quiz!",
+        "Calculation aur logical maths questions ke liye ready?",
+        "Answer sochkar dena 😎",
+        "Let's begin!"
+    ],
+
+    "mathematics": [
+        "📐 Mathematics Mode!",
+        "Maths ka kaunsa topic karna hai?",
+        "Algebra, Geometry, Arithmetic ya Probability?",
+        "Batao 🧠"
+    ],
+
+    "arithmetic": [
+        "➕ Arithmetic Quiz!",
+        "Addition, subtraction, multiplication aur division ke questions.",
+        "Ready?",
+        "Let's calculate!"
+    ],
+
+    "addition": [
+        "➕ Addition Practice!",
+        "Numbers ko add karne ka challenge.",
+        "Question bhejo 🧮",
+        "Let's solve!"
+    ],
+
+    "subtraction": [
+        "➖ Subtraction Practice!",
+        "Minus wale questions solve karte hain.",
+        "Ready? 🧠",
+        "Let's calculate!"
+    ],
+
+    "multiplication": [
+        "✖️ Multiplication Practice!",
+        "Multiplication questions ke liye ready?",
+        "Tables bhi practice kar sakte ho 📚",
+        "Let's start!"
+    ],
+
+    "division": [
+        "➗ Division Practice!",
+        "Division ke questions solve karte hain.",
+        "Step-by-step calculation karo 🧠",
+        "Ready?"
+    ],
+
+    "tables": [
+        "🔢 Tables Practice!",
+        "Kaunsi table practice karni hai?",
+        "2 se 20 tak koi bhi table choose karo 📚",
+        "Let's practice!"
+    ],
+
+    "percentage": [
+        "💯 Percentage Quiz!",
+        "Percentage ke questions solve karte hain.",
+        "Calculation carefully karna 🧠",
+        "Ready?"
+    ],
+
+    "profit loss": [
+        "💰 Profit & Loss Quiz!",
+        "Profit, loss aur percentage ke questions.",
+        "Let's test your calculation skills 🧮",
+        "Ready?"
+    ],
+
+    "simple interest": [
+        "💰 Simple Interest Quiz!",
+        "Principal, rate aur time ke questions.",
+        "Formula yaad hai? 🧠",
+        "Let's calculate!"
+    ],
+
+    "compound interest": [
+        "💰 Compound Interest Quiz!",
+        "Compound interest ke questions ke liye ready?",
+        "Calculation carefully karo 🧮",
+        "Let's begin!"
+    ],
+
+    "ratio": [
+        "⚖️ Ratio Quiz!",
+        "Ratio aur proportion ke questions.",
+        "Answer carefully calculate karo.",
+        "Ready?"
+    ],
+
+    "average": [
+        "📊 Average Quiz!",
+        "Average nikalne wale questions solve karte hain.",
+        "Let's calculate 🧮",
+        "Ready?"
+    ],
+
+    "algebra": [
+        "🔤 Algebra Quiz!",
+        "Variables aur equations ke questions.",
+        "x ki value find karne ke liye ready? 🧠",
+        "Let's start!"
+    ],
+
+    "equation": [
+        "🧮 Equation Practice!",
+        "Equation solve karte hain.",
+        "Question bhejo.",
+        "Let's find the answer!"
+    ],
+
+    "geometry": [
+        "📐 Geometry Quiz!",
+        "Shapes, angles, area aur perimeter ke questions.",
+        "Geometry challenge ready?",
+        "Let's begin!"
+    ],
+
+    "area": [
+        "📐 Area Quiz!",
+        "Different shapes ka area calculate karte hain.",
+        "Question bhejo 🧮",
+        "Ready?"
+    ],
+
+    "perimeter": [
+        "📏 Perimeter Quiz!",
+        "Shapes ke perimeter ke questions.",
+        "Calculation carefully karo 🧠",
+        "Let's solve!"
+    ],
+
+    "volume": [
+        "📦 Volume Quiz!",
+        "3D shapes aur volume ke questions.",
+        "Let's calculate 🧮",
+        "Ready?"
+    ],
+
+    "fraction": [
+        "🍕 Fraction Quiz!",
+        "Fractions ko solve aur compare karte hain.",
+        "Question bhejo 🧠",
+        "Let's begin!"
+    ],
+
+    "decimal": [
+        "🔢 Decimal Quiz!",
+        "Decimals ke addition, subtraction aur comparison ke questions.",
+        "Ready?",
+        "Let's calculate!"
+    ],
+
+    "number system": [
+        "🔢 Number System Quiz!",
+        "Numbers aur number properties ke questions.",
+        "Knowledge test karte hain 🧠",
+        "Let's start!"
+    ],
+
+    "prime number": [
+        "🔢 Prime Number Quiz!",
+        "Prime numbers identify karne ka challenge.",
+        "Think carefully 🧠",
+        "Ready?"
+    ],
+
+    "even odd": [
+        "🔢 Even & Odd Quiz!",
+        "Even aur odd numbers identify karo.",
+        "Easy warm-up? 😎",
+        "Let's go!"
+    ],
+
+    "square": [
+        "⬛ Square Numbers!",
+        "Squares aur square roots ke questions.",
+        "Calculation ready? 🧠",
+        "Let's begin!"
+    ],
+
+    "cube": [
+        "🧊 Cube Numbers!",
+        "Cubes aur cube roots ke questions.",
+        "Let's calculate!",
+        "Ready?"
+    ],
+
+    "square root": [
+        "√ Square Root Quiz!",
+        "Square root find karne ke questions.",
+        "Question bhejo 🧮",
+        "Let's solve!"
+    ],
+
+    "cube root": [
+        "∛ Cube Root Quiz!",
+        "Cube root ke questions solve karte hain.",
+        "Ready?",
+        "Let's calculate!"
+    ],
+
+    "logical reasoning": [
+        "🧠 Logical Reasoning!",
+        "Logic aur thinking ability ka test.",
+        "Question ko carefully analyze karo.",
+        "Ready?"
+    ],
+
+    "reasoning quiz": [
+        "🧠 Reasoning Quiz!",
+        "Patterns, logic aur problem-solving questions.",
+        "Let's test your brain 🔥",
+        "Ready?"
+    ],
+
+    "logic quiz": [
+        "🧩 Logic Quiz!",
+        "Dimaag lagane wale questions ke liye ready?",
+        "Think before answering 🧠",
+        "Let's begin!"
+    ],
+
+    "brain teaser": [
+        "🧩 Brain Teaser!",
+        "Ek tricky question tumhara wait kar raha hai.",
+        "Dhyan se sochna 😎",
+        "Can you solve it?"
+    ],
+
+    "puzzle": [
+        "🧩 Puzzle Time!",
+        "Dimaag lagao aur puzzle solve karo.",
+        "Answer jaldi mat dena 😄",
+        "Think carefully!"
+    ],
+
+    "riddle": [
+        "🤔 Riddle Time!",
+        "Ek paheli solve karne ke liye ready?",
+        "Clue ko carefully socho 🧠",
+        "Let's begin!"
+    ],
+
+    "paheli": [
+        "🧩 Paheli Time!",
+        "Chalo ek interesting paheli solve karte hain.",
+        "Socho... phir answer do 😄",
+        "Ready?"
+    ],
+
+    "pattern quiz": [
+        "🔢 Pattern Quiz!",
+        "Number ya symbol pattern identify karo.",
+        "Next value kya hogi? 🧠",
+        "Let's find out!"
+    ],
+
+    "sequence": [
+        "🔢 Sequence Challenge!",
+        "Sequence ko observe karo aur next value identify karo.",
+        "Think carefully 🧠",
+        "Ready?"
+    ],
+
+    "odd one out": [
+        "🔍 Odd One Out!",
+        "Group mein different item identify karo.",
+        "Observation skills test karte hain 😎",
+        "Let's begin!"
+    ],
+
+    "mental math": [
+        "🧠 Mental Math!",
+        "Calculator ke bina calculation try karo.",
+        "Speed aur accuracy dono important hain ⚡",
+        "Ready?"
+    ],
+
+    "calculation": [
+        "🧮 Calculation Mode!",
+        "Numbers bhejo ya calculation question poochho.",
+        "Let's calculate!",
+        "Ready?"
+    ],
+
+    "math problem": [
+        "🧮 Math Problem!",
+        "Question bhejo.",
+        "Step-by-step solution discuss karte hain.",
+        "Let's solve!"
+    ],
+
+    "math question": [
+        "❓ Maths Question!",
+        "Question bhejo aur calculation start karte hain.",
+        "Formula bhi explain kar sakte hain 📚",
+        "Ready?"
+    ],
+
+    "math challenge": [
+        "🔥 Maths Challenge!",
+        "Ab dimaag aur calculation dono ka test hoga.",
+        "Challenge accepted? 😎",
+        "Let's go!"
+    ],
+
+    "logic challenge": [
+        "🔥 Logic Challenge!",
+        "Ek tricky reasoning challenge ke liye ready?",
+        "Question carefully read karo 🧠",
+        "Let's begin!"
+    ],    # =========================
+    # PART 34 — QUIZ: ENGLISH & LANGUAGE
+    # =========================
+
+    "english quiz": [
+        "🇬🇧 English Quiz!",
+        "Grammar, vocabulary aur sentence practice ke questions.",
+        "Ready? 🧠",
+        "Let's start!"
+    ],
+
+    "english test": [
+        "📝 English Test!",
+        "English knowledge ka test karte hain.",
+        "Grammar aur vocabulary dono aa sakte hain.",
+        "Ready?"
+    ],
+
+    "grammar quiz": [
+        "📚 Grammar Quiz!",
+        "Tenses, nouns, verbs aur sentence structure ke questions.",
+        "Grammar kitni strong hai? 🧠",
+        "Let's find out!"
+    ],
+
+    "vocabulary quiz": [
+        "🔤 Vocabulary Quiz!",
+        "Words ke meaning aur usage ke questions.",
+        "Let's improve your vocabulary 📚",
+        "Ready?"
+    ],
+
+    "word meaning": [
+        "📖 Word Meaning!",
+        "Kisi English word ka meaning poochho.",
+        "Main simple explanation dene ki koshish karunga.",
+        "Word bhejo 😊"
+    ],
+
+    "meaning": [
+        "📖 Meaning Mode!",
+        "Kis word ka meaning jaana hai?",
+        "English ya Hindi word bhejo.",
+        "Let's learn!"
+    ],
+
+    "synonym quiz": [
+        "🔤 Synonym Quiz!",
+        "Similar meaning wale words identify karo.",
+        "Vocabulary test karte hain 🧠",
+        "Ready?"
+    ],
+
+    "antonym quiz": [
+        "🔤 Antonym Quiz!",
+        "Opposite meaning wale words identify karo.",
+        "Let's test your vocabulary!",
+        "Ready?"
+    ],
+
+    "opposite word": [
+        "↔️ Opposite Word!",
+        "Kisi word ka opposite poochho.",
+        "Word bhejo 📚",
+        "Let's learn!"
+    ],
+
+    "similar word": [
+        "🔤 Similar Word!",
+        "Kisi word ke similar meaning wale words chahiye?",
+        "Word bhejo 😊",
+        "Let's find them!"
+    ],
+
+    "noun quiz": [
+        "📚 Noun Quiz!",
+        "Nouns identify karne ke questions.",
+        "Person, place, animal ya thing? 🧠",
+        "Let's begin!"
+    ],
+
+    "pronoun quiz": [
+        "📚 Pronoun Quiz!",
+        "Pronouns identify karne ke questions.",
+        "Grammar practice karte hain.",
+        "Ready?"
+    ],
+
+    "verb quiz": [
+        "🏃 Verb Quiz!",
+        "Action words aur verbs ke questions.",
+        "Let's test your grammar 🧠",
+        "Ready?"
+    ],
+
+    "adjective quiz": [
+        "✨ Adjective Quiz!",
+        "Describing words identify karo.",
+        "Grammar challenge ready?",
+        "Let's begin!"
+    ],
+
+    "adverb quiz": [
+        "📚 Adverb Quiz!",
+        "Adverbs identify karne ka challenge.",
+        "Sentence carefully read karo 🧠",
+        "Ready?"
+    ],
+
+    "preposition quiz": [
+        "📚 Preposition Quiz!",
+        "In, on, at, under, between jaise words ki practice.",
+        "Let's test your grammar!",
+        "Ready?"
+    ],
+
+    "article quiz": [
+        "📚 Articles Quiz!",
+        "A, an aur the ki practice.",
+        "Correct article choose karo 🧠",
+        "Let's begin!"
+    ],
+
+    "tense quiz": [
+        "⏰ Tense Quiz!",
+        "Present, Past aur Future tense ke questions.",
+        "Grammar test karte hain 🧠",
+        "Ready?"
+    ],
+
+    "present tense": [
+        "⏰ Present Tense!",
+        "Present tense ki practice karte hain.",
+        "Sentence bhejo ya question poochho.",
+        "Let's learn!"
+    ],
+
+    "past tense": [
+        "⏰ Past Tense!",
+        "Past tense ke sentences aur questions.",
+        "Grammar practice ke liye ready?",
+        "Let's begin!"
+    ],
+
+    "future tense": [
+        "⏰ Future Tense!",
+        "Future tense ki practice karte hain.",
+        "Sentence bhejo 📚",
+        "Ready?"
+    ],
+
+    "active passive": [
+        "🔄 Active & Passive Voice!",
+        "Active aur passive sentences ki practice.",
+        "Sentence bhejo, practice karte hain.",
+        "Let's learn!"
+    ],
+
+    "direct indirect": [
+        "💬 Direct & Indirect Speech!",
+        "Reported speech ki practice karte hain.",
+        "Sentence bhejo 🧠",
+        "Ready?"
+    ],
+
+    "sentence quiz": [
+        "📝 Sentence Quiz!",
+        "Sentence structure aur grammar ke questions.",
+        "Correct answer choose karo.",
+        "Let's start!"
+    ],
+
+    "correct sentence": [
+        "✅ Correct Sentence!",
+        "Grammar ke according correct sentence identify karo.",
+        "Dhyan se read karna 🧠",
+        "Ready?"
+    ],
+
+    "incorrect sentence": [
+        "❌ Incorrect Sentence!",
+        "Sentence mein mistake identify karne ka challenge.",
+        "Grammar carefully check karo.",
+        "Let's begin!"
+    ],
+
+    "fill in the blanks": [
+        "📝 Fill in the Blanks!",
+        "Blank mein correct word fill karo.",
+        "Grammar aur vocabulary dono test honge 🧠",
+        "Ready?"
+    ],
+
+    "spelling quiz": [
+        "🔤 Spelling Quiz!",
+        "Correct spelling identify karo.",
+        "Dekhte hain spelling kitni strong hai 😎",
+        "Let's start!"
+    ],
+
+    "pronunciation": [
+        "🗣️ Pronunciation Practice!",
+        "English word bhejo.",
+        "Uski pronunciation ko simple way mein samajhne ki koshish karte hain.",
+        "Word bhejo 😊"
+    ],
+
+    "translation": [
+        "🌐 Translation Mode!",
+        "Hindi se English ya English se Hindi translation ke liye text bhejo.",
+        "Let's translate!"
+    ],
+
+    "translate": [
+        "🌐 Translate!",
+        "Jo sentence translate karna hai woh bhejo.",
+        "Hindi ↔️ English translation karte hain.",
+        "Text bhejo 😊"
+    ],
+
+    "english to hindi": [
+        "🇬🇧➡️🇮🇳 English to Hindi!",
+        "English sentence bhejo.",
+        "Uska Hindi meaning samajhne mein help karunga.",
+        "Send the sentence!"
+    ],
+
+    "hindi to english": [
+        "🇮🇳➡️🇬🇧 Hindi to English!",
+        "Hindi sentence bhejo.",
+        "Uska English translation karte hain.",
+        "Sentence bhejo 😊"
+    ],
+
+    "learn english": [
+        "🇬🇧 English Learning Mode!",
+        "Daily thoda-thoda English practice karna best hai.",
+        "Vocabulary, grammar aur conversation se start kar sakte hain.",
+        "Let's learn!"
+    ],
+
+    "english speaking": [
+        "🗣️ English Speaking Practice!",
+        "English mein conversation practice karte hain.",
+        "Simple sentence se start karo.",
+        "Let's talk!"
+    ],
+
+    "spoken english": [
+        "🗣️ Spoken English!",
+        "Daily conversation ke useful English sentences practice karte hain.",
+        "Bolo, kis situation ki English seekhni hai?",
+        "Let's practice!"
+    ],
+
+    "english conversation": [
+        "💬 English Conversation!",
+        "Chalo English mein baat karte hain.",
+        "Simple conversation se start karenge.",
+        "Hello! How are you? 😊"
+    ],
+
+    "daily english": [
+        "📅 Daily English!",
+        "Aaj ek naya English word aur sentence seekho.",
+        "Consistency se English improve hoti hai 💪",
+        "Let's practice!"
+    ],
+
+    "english words": [
+        "🔤 English Words!",
+        "New vocabulary seekhne ke liye ready?",
+        "Easy se difficult words tak practice kar sakte hain.",
+        "Let's learn!"
+    ],
+
+    "new word": [
+        "✨ New Word!",
+        "Ek new English word seekhte hain.",
+        "Word ka meaning, example aur usage bhi practice kar sakte hain.",
+        "Ready?"
+    ],
+
+    "idiom quiz": [
+        "💬 Idiom Quiz!",
+        "English idioms ke meanings guess karo.",
+        "Vocabulary challenge ready?",
+        "Let's begin!"
+    ],
+
+    "proverb quiz": [
+        "📚 Proverb Quiz!",
+        "Famous English proverbs ke meanings aur usage ke questions.",
+        "Let's test your knowledge!"
+    ],
+
+    "essay practice": [
+        "✍️ Essay Practice!",
+        "Essay ka topic batao.",
+        "Introduction, body aur conclusion ke structure ke saath practice karte hain.",
+        "Let's write!"
+    ],
+
+    "writing practice": [
+        "✍️ Writing Practice!",
+        "English writing improve karne ke liye sentence ya paragraph practice karo.",
+        "Topic bhejo 📚",
+        "Let's begin!"
+    ],
+
+    "letter writing": [
+        "✉️ Letter Writing!",
+        "Formal ya informal letter ki practice karte hain.",
+        "Topic batao.",
+        "Let's write!"
+    ],
+
+    "paragraph writing": [
+        "📝 Paragraph Writing!",
+        "Paragraph ka topic bhejo.",
+        "Simple aur clear structure ke saath practice karte hain.",
+        "Let's start!"
+    ],    # =========================
+    # PART 35 — QUIZ: STUDY SUBJECTS
+    # =========================
+
+    "maths": [
+        "🧮 Maths Mode ON!",
+        "Maths ka kaunsa topic karna hai?",
+        "Arithmetic, Algebra, Geometry ya koi question bhejo.",
+        "Let's study!"
+    ],
+
+    "science": [
+        "🔬 Science Mode ON!",
+        "Physics, Chemistry ya Biology mein kya padhna hai?",
+        "Topic batao 🧠",
+        "Let's learn!"
+    ],
+
+    "physics": [
+        "⚡ Physics Mode!",
+        "Motion, force, energy, electricity ya koi aur topic?",
+        "Question bhejo 🧠",
+        "Let's study!"
+    ],
+
+    "chemistry": [
+        "🧪 Chemistry Mode!",
+        "Elements, reactions, atoms ya molecules?",
+        "Topic batao 📚",
+        "Let's learn!"
+    ],
+
+    "biology": [
+        "🧬 Biology Mode!",
+        "Cells, plants, animals ya human body?",
+        "Topic batao 🧠",
+        "Let's study!"
+    ],
+
+    "history": [
+        "🏛️ History Mode!",
+        "Ancient, Medieval ya Modern History?",
+        "Topic batao 📚",
+        "Let's explore history!"
+    ],
+
+    "geography": [
+        "🌍 Geography Mode!",
+        "Countries, rivers, mountains, climate ya maps?",
+        "Topic batao 🧠",
+        "Let's learn!"
+    ],
+
+    "computer": [
+        "💻 Computer Studies!",
+        "Computer basics, hardware, software ya programming?",
+        "Topic batao 📚",
+        "Let's study!"
+    ],
+
+    "computer science": [
+        "💻 Computer Science!",
+        "Programming, algorithms, databases ya computer basics?",
+        "Topic batao 🧠",
+        "Let's learn!"
+    ],
+
+    "programming": [
+        "👨‍💻 Programming Mode!",
+        "Python, JavaScript, HTML/CSS ya kisi aur language ka topic?",
+        "Code ya question bhejo.",
+        "Let's code!"
+    ],
+
+    "python": [
+        "🐍 Python Study Mode!",
+        "Python ka concept ya code question bhejo.",
+        "Variables, loops, functions, lists etc. par practice kar sakte ho.",
+        "Let's code!"
+    ],
+
+    "html": [
+        "🌐 HTML Practice!",
+        "HTML tags, elements aur webpage structure seekhte hain.",
+        "Question ya code bhejo.",
+        "Let's learn!"
+    ],
+
+    "css": [
+        "🎨 CSS Practice!",
+        "CSS styling, layout aur responsive design ke questions.",
+        "Code bhejo ya topic batao.",
+        "Let's practice!"
+    ],
+
+    "javascript": [
+        "⚡ JavaScript Mode!",
+        "JavaScript basics, functions, arrays ya DOM?",
+        "Question bhejo.",
+        "Let's code!"
+    ],
+
+    "social science": [
+        "🌍 Social Science Mode!",
+        "History, Geography, Civics aur Economics ke topics.",
+        "Topic batao 📚",
+        "Let's study!"
+    ],
+
+    "civics": [
+        "🏛️ Civics Mode!",
+        "Government, Constitution, rights aur democracy ke topics.",
+        "Question bhejo 🧠",
+        "Let's learn!"
+    ],
+
+    "economics": [
+        "💰 Economics Mode!",
+        "Money, markets, demand, supply aur economy ke concepts.",
+        "Topic batao 📚",
+        "Let's study!"
+    ],
+
+    "political science": [
+        "🏛️ Political Science!",
+        "Government, political systems aur institutions ke topics.",
+        "Question bhejo 🧠",
+        "Let's learn!"
+    ],
+
+    "accounting": [
+        "🧾 Accounting Mode!",
+        "Assets, liabilities, journal, ledger aur basic accounting.",
+        "Question bhejo 📚",
+        "Let's practice!"
+    ],
+
+    "business studies": [
+        "💼 Business Studies!",
+        "Business, management, marketing aur entrepreneurship ke topics.",
+        "Topic batao 🧠",
+        "Let's study!"
+    ],
+
+    "commerce": [
+        "💼 Commerce Mode!",
+        "Accounts, Economics aur Business Studies ke topics.",
+        "Kis subject se start karna hai?",
+        "Let's study!"
+    ],
+
+    "general studies": [
+        "📚 General Studies!",
+        "GK, History, Geography, Science aur Current Affairs practice karte hain.",
+        "Topic batao 🧠",
+        "Let's begin!"
+    ],
+
+    "current affairs": [
+        "📰 Current Affairs!",
+        "Recent events aur important developments par questions practice karte hain.",
+        "Topic ya question bhejo.",
+        "Let's learn!"
+    ],
+
+    "school study": [
+        "🏫 School Study Mode!",
+        "Class aur subject batao.",
+        "Phir us level ke according practice karte hain 📚",
+        "Let's study!"
+    ],
+
+    "college study": [
+        "🎓 College Study Mode!",
+        "Subject aur topic batao.",
+        "Concepts aur practice questions se start karte hain.",
+        "Let's learn!"
+    ],
+
+    "homework": [
+        "📚 Homework Help!",
+        "Homework ka question bhejo.",
+        "Question ko samajhne aur solve karne mein help karunga.",
+        "Send it!"
+    ],
+
+    "assignment": [
+        "📝 Assignment Help!",
+        "Assignment ka topic ya question bhejo.",
+        "Usko step-by-step samajhte hain.",
+        "Let's start!"
+    ],
+
+    "project": [
+        "📋 Project Help!",
+        "Project ka subject aur topic batao.",
+        "Planning aur structure banane mein help karte hain.",
+        "Let's begin!"
+    ],
+
+    "study plan": [
+        "📅 Study Plan!",
+        "Daily study plan banane ke liye class, subjects aur available time batao.",
+        "Phir schedule organize karte hain.",
+        "Let's plan!"
+    ],
+
+    "study schedule": [
+        "⏰ Study Schedule!",
+        "Padhai ka timetable banane ke liye subjects aur time batao.",
+        "Consistency ke saath follow karna important hai 💪",
+        "Let's plan!"
+    ],
+
+    "timetable": [
+        "📅 Timetable Mode!",
+        "Class aur subjects batao.",
+        "Main ek simple study routine suggest kar sakta hoon.",
+        "Let's organize!"
+    ],
+
+    "study routine": [
+        "📚 Study Routine!",
+        "Short study sessions + revision + practice ka combination useful hai.",
+        "Apna daily available time batao.",
+        "Let's make a routine!"
+    ],
+
+    "study motivation": [
+        "🔥 Study Motivation!",
+        "Aaj thoda padh lo, kal ka pressure kam ho jayega 💪",
+        "Small progress is still progress 📚",
+        "Keep going!"
+    ],
+
+    "exam stress": [
+        "📚 Exam Stress!",
+        "Panic karne ke bajay topics ko small sections mein divide karo.",
+        "Revision aur practice par focus karo.",
+        "You can do it 💪"
+    ],
+
+    "study break": [
+        "☕ Study Break!",
+        "Thoda break lena bhi important hai.",
+        "Short break ke baad fresh mind se wapas study karo.",
+        "Take care 😊"
+    ],
+
+    "concentration": [
+        "🎯 Concentration Tips!",
+        "Distractions kam karo aur ek time par ek topic padho.",
+        "Short focused sessions try karo.",
+        "Stay focused 🧠"
+    ],
+
+    "how to study": [
+        "📚 Smart Study Tips:",
+        "1️⃣ Concept samjho.",
+        "2️⃣ Short notes banao.",
+        "3️⃣ Questions practice karo.",
+        "4️⃣ Regular revision karo."
+    ],
+
+    "how to remember": [
+        "🧠 Yaad rakhne ke liye:",
+        "Concept ko samjho, examples dekho aur regular revision karo.",
+        "Practice se memory aur understanding dono improve hoti hain."
+    ],
+
+    "study better": [
+        "🚀 Better Study ke liye:",
+        "Distractions kam rakho, realistic targets banao aur daily revision karo.",
+        "Consistency sabse important hai 📚"
+    ],    # =========================
+    # PART 36 — QUIZ: COMPETITIVE EXAM
+    # =========================
+
+    "competitive exam": [
+        "🔥 Competitive Exam Mode!",
+        "GK, Maths, Reasoning, English aur Science ke questions practice karte hain.",
+        "Exam level batao 🧠",
+        "Let's begin!"
+    ],
+
+    "entrance exam": [
+        "🎓 Entrance Exam Practice!",
+        "Entrance-level questions ke liye ready?",
+        "Subject aur topic batao.",
+        "Let's practice!"
+    ],
+
+    "government exam": [
+        "🏛️ Government Exam Practice!",
+        "GK, Reasoning, Maths aur English ke questions practice karte hain.",
+        "Topic batao 📚",
+        "Let's start!"
+    ],
+
+    "bank exam": [
+        "🏦 Bank Exam Practice!",
+        "Reasoning, Quantitative Aptitude, English aur GK ke questions.",
+        "Practice mode ON 🔥",
+        "Ready?"
+    ],
+
+    "ssc quiz": [
+        "📝 SSC Quiz!",
+        "SSC-style GK, Maths, Reasoning aur English practice.",
+        "Let's test your preparation 🧠",
+        "Ready?"
+    ],
+
+    "railway quiz": [
+        "🚆 Railway Exam Quiz!",
+        "General Knowledge, Maths, Reasoning aur Science ke questions.",
+        "Ready for the challenge?",
+        "Let's begin!"
+    ],
+
+    "neet quiz": [
+        "🧬 NEET Practice!",
+        "Biology, Chemistry aur Physics ke study questions.",
+        "Concepts strong karo 📚",
+        "Let's practice!"
+    ],
+
+    "jee quiz": [
+        "⚛️ JEE Practice!",
+        "Physics, Chemistry aur Mathematics ke concept-based questions.",
+        "Challenge ready? 🔥",
+        "Let's begin!"
+    ],
+
+    "aptitude quiz": [
+        "🧮 Aptitude Quiz!",
+        "Numbers, percentages, ratios aur logical calculations.",
+        "Speed + accuracy important hai ⚡",
+        "Ready?"
+    ],
+
+    "quantitative aptitude": [
+        "🧮 Quantitative Aptitude!",
+        "Percentage, ratio, average, profit-loss aur arithmetic questions.",
+        "Let's practice!"
+    ],
+
+    "reasoning practice": [
+        "🧠 Reasoning Practice!",
+        "Series, analogy, coding-decoding aur logical questions.",
+        "Question solve karo 🔥",
+        "Ready?"
+    ],
+
+    "coding decoding": [
+        "🔐 Coding-Decoding!",
+        "Words aur numbers ke patterns identify karne ka challenge.",
+        "Logic carefully observe karo 🧠",
+        "Let's begin!"
+    ],
+
+    "analogy": [
+        "🧩 Analogy Quiz!",
+        "Do objects ke relationship ko identify karo.",
+        "Logic use karo 🧠",
+        "Ready?"
+    ],
+
+    "series quiz": [
+        "🔢 Series Quiz!",
+        "Number ya letter series ka next element find karo.",
+        "Pattern carefully dekho.",
+        "Let's solve!"
+    ],
+
+    "number series": [
+        "🔢 Number Series!",
+        "Sequence mein hidden pattern find karo.",
+        "Next number kya hoga? 🧠",
+        "Ready?"
+    ],
+
+    "letter series": [
+        "🔤 Letter Series!",
+        "Alphabet pattern identify karne ka challenge.",
+        "Think carefully!",
+        "Let's begin!"
+    ],
+
+    "blood relation": [
+        "👨‍👩‍👧 Blood Relation Quiz!",
+        "Family relationships aur logical relations ke questions.",
+        "Diagram bana kar solve kar sakte ho 🧠",
+        "Ready?"
+    ],
+
+    "direction test": [
+        "🧭 Direction Test!",
+        "North, South, East aur West based reasoning questions.",
+        "Directions carefully observe karo.",
+        "Let's start!"
+    ],
+
+    "coding question": [
+        "💻 Coding Question!",
+        "Programming ya coding ka question bhejo.",
+        "Concept samajhne aur solution tak pahunchne ki practice karte hain.",
+        "Let's code!"
+    ],
+
+    "computer gk": [
+        "💻 Computer GK!",
+        "Hardware, software, internet aur technology ke questions.",
+        "Let's test your knowledge 🧠",
+        "Ready?"
+    ],
+
+    "static gk": [
+        "📚 Static GK!",
+        "History, Geography, Science, Polity aur important facts ke questions.",
+        "Knowledge test karte hain!",
+        "Let's begin!"
+    ],
+
+    "polity quiz": [
+        "🏛️ Polity Quiz!",
+        "Indian Constitution, government aur political system ke questions.",
+        "Let's test your knowledge 🧠",
+        "Ready?"
+    ],
+
+    "constitution quiz": [
+        "📜 Constitution Quiz!",
+        "Indian Constitution ke basic concepts aur important facts.",
+        "Question solve karo.",
+        "Let's begin!"
+    ],
+
+    "geography quiz": [
+        "🌍 Geography Quiz!",
+        "Countries, states, rivers, mountains aur climate ke questions.",
+        "Map knowledge test karte hain 🧠",
+        "Ready?"
+    ],
+
+    "current affairs quiz": [
+        "📰 Current Affairs Quiz!",
+        "Recent events par quiz practice.",
+        "Question carefully read karo.",
+        "Let's begin!"
+    ],
+
+    "daily quiz": [
+        "📅 Daily Quiz!",
+        "Aaj ka short knowledge challenge ready hai.",
+        "Let's test your brain 🧠🔥",
+        "Ready?"
+    ],
+
+    "daily gk": [
+        "🌍 Daily GK!",
+        "Har din kuch naya seekhne ka challenge.",
+        "Aaj ka topic choose karo 📚",
+        "Let's learn!"
+    ],
+
+    "quiz score": [
+        "🏆 Quiz Score!",
+        "Apna score calculate karne ke liye correct aur total answers batao.",
+        "Example: 8 correct out of 10.",
+        "Let's check!"
+    ],
+
+    "my score": [
+        "🏆 Score Check!",
+        "Correct answers aur total questions batao.",
+        "Main percentage calculate karne mein help karunga.",
+        "Keep improving!"
+    ],
+
+    "pass or fail": [
+        "📝 Result Check!",
+        "Apna score aur total marks batao.",
+        "Phir result percentage ke basis par samajhte hain.",
+        "All the best! 💪"
+    ],
+
+    "marks": [
+        "📊 Marks!",
+        "Kitne marks mile? Total marks bhi batao.",
+        "Performance analyze karte hain 🧠",
+        "Let's check!"
+    ],
+
+    "percentage score": [
+        "💯 Percentage Score!",
+        "Obtained marks aur total marks bhejo.",
+        "Percentage calculate karte hain.",
+        "Ready?"
+    ],
+
+    "improve score": [
+        "📈 Score Improve Karna Hai?",
+        "Weak topics identify karo aur unki extra practice karo.",
+        "Daily revision + mock tests helpful hain 💪",
+        "Keep practicing!"
+    ],
+
+    "weak subject": [
+        "📚 Weak Subject?",
+        "Subject ka naam batao.",
+        "Us topic ke basics aur practice questions se start karte hain.",
+        "Don't worry, practice se improvement hoti hai 💪"
+    ],
+
+    "strong subject": [
+        "🔥 Strong Subject!",
+        "Strong subject ko maintain karne ke liye regular practice continue rakho.",
+        "Ab difficult questions try karo 🧠",
+        "Keep improving!"
+    ],
+
+    "exam result": [
+        "🏆 Exam Result!",
+        "Result mil gaya? Marks aur total marks batao.",
+        "Performance ko calmly analyze karte hain.",
+        "Every result is a learning step 💪"
+    ],
+
+    "test result": [
+        "📊 Test Result!",
+        "Correct answers, wrong answers aur total questions batao.",
+        "Weak areas identify karte hain.",
+        "Let's improve!"
+    ],    # =========================
+    # PART 37 — QUIZ: MEMORY, REVISION & PRACTICE
+    # =========================
+
+    "flashcards": [
+        "🃏 Flashcard Mode!",
+        "Question-answer style mein quick revision karte hain.",
+        "Topic batao 📚",
+        "Ready?"
+    ],
+
+    "flash card": [
+        "🃏 Flash Cards!",
+        "Short questions se memory test karte hain.",
+        "Subject ya topic batao 🧠",
+        "Let's begin!"
+    ],
+
+    "memory quiz": [
+        "🧠 Memory Quiz!",
+        "Dekhte hain kitna yaad hai!",
+        "Question carefully read karo.",
+        "Ready?"
+    ],
+
+    "memory test": [
+        "🧠 Memory Test!",
+        "Jo padha hai uska quick test karte hain.",
+        "No cheating 😎",
+        "Let's start!"
+    ],
+
+    "revision quiz": [
+        "🔄 Revision Quiz!",
+        "Pehle padhe hue topic ka quick quiz.",
+        "Apni preparation check karo 📚",
+        "Let's begin!"
+    ],
+
+    "revision test": [
+        "📝 Revision Test!",
+        "Revision ke baad knowledge test karte hain.",
+        "Focus karo 🧠",
+        "Ready?"
+    ],
+
+    "quick quiz": [
+        "⚡ Quick Quiz!",
+        "Short aur fast quiz ke liye ready?",
+        "Let's test your knowledge!",
+        "Start!"
+    ],
+
+    "short quiz": [
+        "📝 Short Quiz!",
+        "Chhota sa quiz round karte hain.",
+        "Kuch questions aur phir score check karenge.",
+        "Ready?"
+    ],
+
+    "long quiz": [
+        "🔥 Long Quiz!",
+        "Long practice session ke liye ready?",
+        "Multiple questions solve karte hain.",
+        "Let's begin!"
+    ],
+
+    "practice test": [
+        "📝 Practice Test!",
+        "Exam preparation ke liye practice test start karte hain.",
+        "Subject batao 📚",
+        "Ready?"
+    ],
+
+    "practice question": [
+        "❓ Practice Question!",
+        "Question bhejo ya subject batao.",
+        "Practice start karte hain 🧠",
+        "Let's go!"
+    ],
+
+    "practice questions": [
+        "📚 Practice Questions!",
+        "Kis subject ke questions chahiye?",
+        "Easy, Medium ya Hard level choose kar sakte ho.",
+        "Ready?"
+    ],
+
+    "daily practice": [
+        "📅 Daily Practice!",
+        "Roz thodi practice karna preparation strong karta hai.",
+        "Aaj ka subject batao 🧠",
+        "Let's practice!"
+    ],
+
+    "one question": [
+        "❓ One Question Challenge!",
+        "Sirf ek question ka challenge!",
+        "Dhyan se answer dena 😎",
+        "Ready?"
+    ],
+
+    "five questions": [
+        "📝 5 Questions Challenge!",
+        "Five-question quick practice round.",
+        "Score end mein check kar sakte ho.",
+        "Let's begin!"
+    ],
+
+    "ten questions": [
+        "🔥 10 Questions Challenge!",
+        "Ten questions ka complete mini-round.",
+        "Focus + accuracy!",
+        "Ready?"
+    ],
+
+    "quiz level": [
+        "🎯 Quiz Level!",
+        "Easy, Medium ya Hard level choose karo.",
+        "Apne preparation ke according difficulty select karo.",
+        "Let's start!"
+    ],
+
+    "easy level": [
+        "🟢 Easy Level!",
+        "Basic concepts se questions start karte hain.",
+        "Confidence build karne ke liye perfect.",
+        "Ready?"
+    ],
+
+    "medium level": [
+        "🟡 Medium Level!",
+        "Ab thoda thinking required hoga.",
+        "Concepts carefully apply karo 🧠",
+        "Let's begin!"
+    ],
+
+    "hard level": [
+        "🔴 Hard Level!",
+        "Ab challenge serious hai 🔥",
+        "Questions ko carefully analyze karo.",
+        "Best of luck!"
+    ],
+
+    "expert level": [
+        "🟣 Expert Level!",
+        "Advanced-level challenge ke liye ready?",
+        "Logic aur concepts dono use karne honge.",
+        "Let's go!"
+    ],
+
+    "beginner": [
+        "🟢 Beginner Mode!",
+        "Basics se start karna best hai.",
+        "Easy questions ke saath practice karte hain 📚",
+        "Let's begin!"
+    ],
+
+    "intermediate": [
+        "🟡 Intermediate Mode!",
+        "Basics ke baad moderate questions solve karte hain.",
+        "Ready for the challenge?"
+    ],
+
+    "advanced": [
+        "🔴 Advanced Mode!",
+        "Ab difficult concepts aur questions practice karte hain.",
+        "Focus mode ON 🧠🔥",
+        "Let's start!"
+    ],
+
+    "challenge": [
+        "🔥 Challenge Accepted!",
+        "Apna topic batao aur challenge start karte hain.",
+        "Ready to test yourself? 🧠",
+        "Let's go!"
+    ],
+
+    "quiz challenge": [
+        "🏆 Quiz Challenge!",
+        "Knowledge aur speed dono test honge.",
+        "Best score ke liye try karo 🔥",
+        "Ready?"
+    ],
+
+    "brain challenge": [
+        "🧠 Brain Challenge!",
+        "Logic, memory aur knowledge ka mixed challenge.",
+        "Dimaag ready rakho 😎",
+        "Let's begin!"
+    ],
+
+    "knowledge test": [
+        "🧠 Knowledge Test!",
+        "Tumhari general knowledge test karte hain.",
+        "Topic choose karo.",
+        "Ready?"
+    ],
+
+    "test my knowledge": [
+        "🔥 Knowledge Challenge!",
+        "Bilkul! Main tumhari knowledge test karne ke liye ready hoon.",
+        "Subject ya topic batao.",
+        "Let's begin!"
+    ],
+
+    "ask me question": [
+        "❓ Question Challenge!",
+        "Bilkul! Tum topic batao, us topic se question practice karte hain.",
+        "Ready?"
+    ],
+
+    "ask question": [
+        "❓ Ask a Question!",
+        "Apna question bhejo.",
+        "Main usko samajhne aur answer explain karne mein help karunga.",
+        "Go ahead!"
+    ],
+
+    "quiz me": [
+        "🎯 Quiz Me!",
+        "Bilkul! Topic batao aur quiz start karte hain.",
+        "Easy, Medium ya Hard choose kar sakte ho.",
+        "Ready?"
+    ],
+
+    "test me": [
+        "🧠 Test Me!",
+        "Challenge accepted!",
+        "Subject aur difficulty batao.",
+        "Let's begin!"
+    ],
+
+    "start quiz": [
+        "🚀 Quiz Start!",
+        "Quiz ke liye subject aur level choose karo.",
+        "Easy / Medium / Hard",
+        "Let's go!"
+    ],
+
+    "start test": [
+        "📝 Test Start!",
+        "Subject aur difficulty batao.",
+        "Phir practice test start karte hain.",
+        "Ready?"
+    ],
+
+    "next question": [
+        "➡️ Next Question!",
+        "Chalo next question par chalte hain.",
+        "Focus rakho 🧠",
+        "Your answer?"
+    ],
+
+    "next quiz": [
+        "➡️ Next Quiz!",
+        "Chalo ek aur quiz round karte hain.",
+        "Topic choose karo 📚",
+        "Ready?"
+    ],
+
+    "repeat question": [
+        "🔁 Question Repeat!",
+        "Bilkul, question dobara bhejo ya repeat karne ko bolo.",
+        "Let's try again."
+    ],
+
+    "explain answer": [
+        "💡 Answer Explanation!",
+        "Question bhejo.",
+        "Answer ke saath concept ko simple language mein samajhte hain.",
+        "Let's learn!"
+    ],
+
+    "explain": [
+        "💡 Explanation Mode!",
+        "Jo concept samajhna hai woh batao.",
+        "Main simple example ke through samjhane ki koshish karunga.",
+        "Topic bhejo 📚"
+    ],
+
+    "step by step": [
+        "👣 Step-by-Step Mode!",
+        "Question bhejo.",
+        "Solution ko steps mein samajhne ki practice karte hain.",
+        "Let's solve!"
+    ],
+
+    "solution": [
+        "💡 Solution!",
+        "Question bhejo.",
+        "Solution ko clearly samajhne ki koshish karte hain.",
+        "Let's begin!"
+    ],
+
+    "solve this": [
+        "🧠 Solve It!",
+        "Question bhejo.",
+        "Main solution samajhne mein help karunga.",
+        "Let's solve!"
+    ],
+
+    "help with question": [
+        "📚 Question Help!",
+        "Question bhejo.",
+        "Pehle concept samjhenge, phir solution par jayenge.",
+        "Send it!"
+    ],
+
+    "doubt": [
+        "❓ Doubt Clear!",
+        "Apna doubt poochho.",
+        "Main simple language mein explain karne ki koshish karunga.",
+        "Bolo 😊"
+    ],
+
+    "clear doubt": [
+        "💡 Doubt Clearing Mode!",
+        "Question ya topic bhejo.",
+        "Step-by-step samajhte hain.",
+        "Let's clear it!"
+    ],
+
+    "study doubt": [
+        "📚 Study Doubt!",
+        "Subject aur question bhejo.",
+        "Doubt ko simple way mein samajhte hain.",
+        "Bolo 🧠"
+    ],
+
+    "revision time": [
+        "⏰ Revision Time!",
+        "Ab jo padha hai usko revise karte hain.",
+        "Short notes aur practice questions useful rahenge.",
+        "Let's revise!"
+    ],
+
+    "study time": [
+        "📚 Study Time!",
+        "Phone side mein aur focus mode ON 😄",
+        "Aaj ka target batao.",
+        "Let's study!"
+    ],
+
+    "focus mode": [
+        "🎯 Focus Mode ON!",
+        "Ek topic choose karo aur distractions kam karo.",
+        "25–30 minute focused study try kar sakte ho.",
+        "Let's focus!"
+    ],
+
+    "no motivation": [
+        "💪 Motivation nahi hai?",
+        "Bas 10 minutes se start karo.",
+        "Small start bhi progress hota hai 📚",
+        "Keep going!"
+    ],
+
+    "lazy to study": [
+        "😄 Padhne ka mann nahi kar raha?",
+        "Sirf 10 minutes ka target rakho.",
+        "Start karna sabse difficult part hota hai.",
+        "You can do it! 💪"
+    ],
+
+    "cant study": [
+        "📚 Study Difficult Lag Rahi Hai?",
+        "Topic ko chhote parts mein divide karo.",
+        "Ek time par ek concept par focus karo.",
+        "Don't give up 💪"
     ],
