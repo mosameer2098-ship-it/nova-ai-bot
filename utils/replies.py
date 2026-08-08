@@ -5398,4 +5398,230 @@ REPLIES = {
         "Challenge accept karo aur apna knowledge test karo 🧠",
         "Ready for the challenge? 🎯",
         "Chalo shuru karte hain 😎"
+    ],    # =========================
+    # PART 23 — QUIZ TYPES & PRACTICE
+    # =========================
+
+    "timed quiz": [
+        "⏱️ Timed Quiz ON! Ready?",
+        "Time limit ke andar answer dena hoga 😎🔥",
+        "Chalo speed aur knowledge dono test karte hain!",
+        "Ready? Timer start hone wala hai 🎯"
+    ],
+
+    "time quiz": [
+        "⏱️ Time Quiz ke liye ready ho?",
+        "Fast answer dena hoga 🧠⚡",
+        "Let's test your speed!",
+        "Timer ke saath quiz start karte hain 🔥"
+    ],
+
+    "daily quiz": [
+        "📅 Daily Quiz ready hai!",
+        "Aaj ka quiz start karte hain 🧠🔥",
+        "Daily knowledge challenge ke liye ready?",
+        "Chalo aaj ka question solve karte hain 🎯"
+    ],
+
+    "today quiz": [
+        "📅 Today's Quiz!",
+        "Aaj ka knowledge test shuru karte hain 😎",
+        "Ready for today's challenge? 🧠",
+        "Chalo aaj ka quiz attempt karo 🔥"
+    ],
+
+    "practice quiz": [
+        "📝 Practice Quiz ON!",
+        "Practice se knowledge aur strong hoti hai 💪🧠",
+        "Chalo practice questions solve karte hain!",
+        "Ready for practice round? 🎯"
+    ],
+
+    "quiz practice": [
+        "🧠 Quiz Practice Mode!",
+        "Chalo questions ki practice karte hain 🔥",
+        "Mistakes se seekho aur score improve karo!",
+        "Practice round start karte hain 😎"
+    ],
+
+    "subject quiz": [
+        "📚 Subject Quiz!",
+        "Apna subject choose karo aur quiz start karo 🎯",
+        "Kaunsa subject chahiye? 🧠",
+        "Subject-wise quiz ke liye ready?"
+    ],
+
+    "school quiz": [
+        "🏫 School Quiz ready!",
+        "School-level questions se knowledge test karte hain 📚",
+        "Class ke according quiz choose kar sakte ho!",
+        "Chalo school quiz start karte hain 😎"
+    ],
+
+    "student quiz": [
+        "🎓 Student Quiz!",
+        "Students ke liye useful questions ready hain 📚",
+        "Learning + Practice = Better Score 🔥",
+        "Chalo student quiz start karte hain!"
+    ],
+
+    "kids quiz": [
+        "👦👧 Kids Quiz Time!",
+        "Easy aur fun questions ke saath quiz karte hain 😄",
+        "Bachchon ke liye interesting quiz ready hai 🧠",
+        "Chalo fun learning start karein 🎯"
+    ],
+
+    "class 1 quiz": [
+        "📚 Class 1 Quiz!",
+        "Class 1 level ke easy questions se start karte hain 😊",
+        "Ready for Class 1 quiz? 🧠",
+        "Chalo learning game start karte hain 🎯"
+    ],
+
+    "class 5 quiz": [
+        "📚 Class 5 Quiz!",
+        "Class 5 level ke questions ke liye ready ho? 😎",
+        "Chalo knowledge test karte hain 🧠",
+        "Quiz start karte hain 🔥"
+    ],
+
+    "class 10 quiz": [
+        "📚 Class 10 Quiz!",
+        "Class 10 level ke questions ready hain 🧠🔥",
+        "Apni preparation test karo 🎯",
+        "Chalo quiz start karte hain!"
+    ],
+
+    "competitive quiz": [
+        "🏆 Competitive Quiz!",
+        "Ab questions thode challenging honge 😎🔥",
+        "Competition-level knowledge test karte hain!",
+        "Ready for the challenge? 🧠"
+    ],
+
+    "rapid quiz": [
+        "⚡ Rapid Quiz!",
+        "Fast questions, fast answers! 🔥",
+        "Speed test ke liye ready ho?",
+        "Chalo rapid-fire quiz start karte hain 😎"
+    ],
+
+    "rapid fire": [
+        "⚡ Rapid Fire Round!",
+        "Ek ke baad ek questions aayenge 🔥",
+        "Zyada sochne ka time nahi milega 😎",
+        "Ready? Let's go! 🎯"
+    ],
+
+    "quiz level": [
+        "🎯 Quiz Level choose karo:",
+        "🟢 Easy\n🟡 Medium\n🔴 Hard",
+        "Kaunsa level chahiye? 😎",
+        "Apna difficulty level batao 🧠"
+    ],
+
+    "quiz easy": [
+        "🟢 Easy Level selected!",
+        "Simple questions se start karte hain 😊",
+        "Beginner quiz ready hai 🧠",
+        "Chalo easy round start karo 🎯"
+    ],
+
+    "quiz medium": [
+        "🟡 Medium Level selected!",
+        "Ab questions thode challenging honge 😎",
+        "Knowledge ko thoda aur test karte hain 🧠🔥",
+        "Medium round start karte hain 🎯"
+    ],
+
+    "quiz hard": [
+        "🔴 Hard Level selected!",
+        "Ab asli challenge shuru hoga 🔥",
+        "Tough questions ke liye ready ho jao 😎",
+        "Hard quiz start karte hain 🧠💪"
+    ],
+
+    "quiz rules": [
+        "📋 Quiz Rules:",
+        "1️⃣ Question dhyan se padho.\n2️⃣ Best answer choose karo.\n3️⃣ Har correct answer par score milega.\n4️⃣ End mein final result milega 🏆",
+        "Rules samajh gaye? Chalo quiz start karte hain 😎",
+        "Ready for the quiz challenge? 🎯"
+    ],
+
+    "quiz instructions": [
+        "📖 Quiz Instructions:",
+        "Question ko carefully read karo aur phir answer do 🧠",
+        "Jaldi mein answer mat do 😄",
+        "Ready? Let's begin! 🔥"
+    ],
+
+    "start quiz": [
+        "🚀 Quiz start karte hain!",
+        "Pehla question ready hai 🧠🎯",
+        "Let's begin the quiz! 🔥",
+        "All the best! 😎🏆"
+    ],
+
+    "stop quiz": [
+        "⛔ Quiz stop kar diya gaya.",
+        "Quiz yahin end karte hain 😊",
+        "No problem! Baad mein dobara start kar sakte ho.",
+        "Quiz stopped 🎯"
+    ],
+
+    "pause quiz": [
+        "⏸️ Quiz pause ho gaya.",
+        "Thoda break le lo 😊",
+        "Ready hone par quiz continue kar sakte ho.",
+        "Quiz temporarily paused 🧠"
+    ],
+
+    "continue quiz": [
+        "▶️ Quiz continue karte hain!",
+        "Chalo wahi se dobara start karte hain 😎",
+        "Ready for the next question? 🎯",
+        "Quiz resumed 🔥"
+    ],
+
+    "skip question": [
+        "⏭️ Question skip kar diya.",
+        "Koi problem nahi, next question par chalte hain 😎",
+        "Next question ready hai 🧠",
+        "Let's move to the next one 🎯"
+    ],
+
+    "hint": [
+        "💡 Hint chahiye?",
+        "Thoda clue deta hoon 🧠",
+        "Question ko dobara dhyan se dekho 😎",
+        "Ek small hint tumhari help kar sakta hai 🔥"
+    ],
+
+    "quiz hint": [
+        "💡 Quiz Hint!",
+        "Answer ke liye ek useful clue: Question ke important words par focus karo 🧠",
+        "Socho... answer aas-paas hi hai 😎",
+        "Good luck! 🎯"
+    ],
+
+    "quiz help": [
+        "🆘 Quiz Help!",
+        "Question samajhne mein problem hai? Mujhe question bhejo.",
+        "Main question explain karne mein help kar sakta hoon 🧠",
+        "Chalo step-by-step solve karte hain 📚"
+    ],
+
+    "explain answer": [
+        "📖 Answer Explanation:",
+        "Sirf correct answer nahi, uska reason samajhna bhi important hai 🧠",
+        "Question bhejo, main explanation ke saath answer dunga.",
+        "Let's understand the answer properly 🔥"
+    ],
+
+    "quiz finished": [
+        "🎉 Quiz Finished!",
+        "Great job! Tumne quiz complete kar liya 🏆",
+        "Ab final score check karte hain 🎯",
+        "Well played! 🧠🔥"
     ],
