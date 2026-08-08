@@ -1,4 +1,5 @@
-python-telegram-bot==22.0
+python-telegram-bot==22.3
 google-genai
 python-dotenv
 httpx
+aiohttp
