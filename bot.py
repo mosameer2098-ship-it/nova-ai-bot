@@ -1,11 +1,12 @@
 import logging
+import os
 
-from telegram import Update
+from aiohttp import web
+
 from telegram.ext import (
     Application,
     CommandHandler,
     MessageHandler,
-    ContextTypes,
     filters,
 )
 
@@ -29,76 +30,94 @@ logger = logging.getLogger(__name__)
 
 
 # ==========================================
-# ERROR HANDLER
+# HEALTH CHECK SERVER
 # ==========================================
 
-async def error_handler(
-    update: object,
-    context: ContextTypes.DEFAULT_TYPE,
-):
-    logger.error(
-        "Exception while handling update:",
-        exc_info=context.error,
+async def health(request):
+    return web.Response(
+        text="Nova AI Bot is running!"
+    )
+
+
+async def start_web_server():
+    port = int(os.environ.get("PORT", 10000))
+
+    app = web.Application()
+
+    app.router.add_get("/", health)
+    app.router.add_get("/health", health)
+
+    runner = web.AppRunner(app)
+    await runner.setup()
+
+    site = web.TCPSite(
+        runner,
+        "0.0.0.0",
+        port,
+    )
+
+    await site.start()
+
+    logger.info(
+        f"🌐 Health server running on port {port}"
     )
 
 
 # ==========================================
-# MAIN BOT
+# MAIN
 # ==========================================
 
-def main():
+async def main():
 
-    # Check Telegram Bot Token
     if not BOT_TOKEN:
         raise RuntimeError(
             "BOT_TOKEN environment variable is missing."
         )
 
-    # Create Telegram application
-    app = Application.builder().token(BOT_TOKEN).build()
+    # Telegram application
+    application = (
+        Application.builder()
+        .token(BOT_TOKEN)
+        .build()
+    )
 
-    # ======================================
-    # COMMANDS
-    # ======================================
-
-    app.add_handler(
+    # Commands
+    application.add_handler(
         CommandHandler("start", start)
     )
 
-    app.add_handler(
+    application.add_handler(
         CommandHandler("help", help_command)
     )
 
-    app.add_handler(
+    application.add_handler(
         CommandHandler("clear", clear_command)
     )
 
-    # ======================================
-    # NORMAL TEXT MESSAGES
-    # ======================================
-
-    app.add_handler(
+    # Normal messages
+    application.add_handler(
         MessageHandler(
             filters.TEXT & ~filters.COMMAND,
             message_handler,
         )
     )
 
-    # ======================================
-    # ERROR HANDLER
-    # ======================================
-
-    app.add_error_handler(error_handler)
-
-    # ======================================
-    # START BOT
-    # ======================================
-
-    logger.info("🤖 Nova AI Bot is starting...")
-
-    app.run_polling(
+    # Start Telegram bot
+    await application.initialize()
+    await application.start()
+    await application.updater.start_polling(
         drop_pending_updates=True
     )
+
+    logger.info(
+        "🤖 Nova AI Bot started successfully!"
+    )
+
+    # Start Render HTTP server
+    await start_web_server()
+
+    # Keep application alive
+    await __import__("asyncio").Event().wait()
 
 
 # ==========================================
@@ -106,4 +125,6 @@ def main():
 # ==========================================
 
 if __name__ == "__main__":
-    main()
+    import asyncio
+
+    asyncio.run(main())
