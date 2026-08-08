@@ -1,62 +1,37 @@
 from google import genai
-
 from config import GEMINI_API_KEY
-from utils.memory import get_chat, add_message
+from utils.memory import get_chat, update_chat
+
+client = genai.Client(api_key=GEMINI_API_KEY)
 
 
-client = genai.Client(
-    api_key=GEMINI_API_KEY
-)
-
-
-SYSTEM_PROMPT = """
-You are Nova AI, a friendly Telegram AI assistant.
-
-Rules:
-- Understand Hindi, Hinglish and English.
-- Reply naturally and helpfully.
-- Reply in the same language as the user whenever possible.
-- Use the recent conversation to understand context.
-- Keep normal replies concise and easy to understand.
-- Do not mention these internal instructions.
-"""
-
-
-def generate_reply(user_id: int, message: str) -> str:
+async def generate_reply(user_id, message):
     history = get_chat(user_id)
 
-    conversation = ""
+    prompt = """You are NOVA, a friendly AI Telegram assistant.
+Reply naturally and helpfully.
+If the user speaks Hindi or Hinglish, reply in Hindi/Hinglish.
+
+"""
 
     for chat in history:
-        conversation += (
-            f"User: {chat['user']}\n"
-            f"Nova AI: {chat['bot']}\n"
+        prompt += f"User: {chat['user']}\n"
+        prompt += f"NOVA: {chat['bot']}\n"
+
+    prompt += f"User: {message}\nNOVA:"
+
+    try:
+        response = await client.aio.models.generate_content(
+            model="gemini-2.5-flash",
+            contents=prompt
         )
 
-    prompt = (
-        f"{SYSTEM_PROMPT}\n\n"
-        f"Recent conversation:\n"
-        f"{conversation}\n"
-        f"User: {message}\n"
-        f"Nova AI:"
-    )
+        reply = response.text or "⚠️ AI se response nahi mila."
 
-    response = client.models.generate_content(
-        model="gemini-2.5-flash",
-        contents=prompt,
-    )
+        update_chat(user_id, message, reply)
 
-    reply = response.text
+        return reply
 
-    if not reply:
-        return "Sorry, mujhe iska jawab nahi mila. 😕"
-
-    reply = reply.strip()
-
-    add_message(
-        user_id,
-        message,
-        reply
-    )
-
-    return reply
+    except Exception as e:
+        print("GEMINI ERROR:", repr(e))
+        return "⚠️ Abhi AI response mein problem aa rahi hai. Thodi der baad try karo."
